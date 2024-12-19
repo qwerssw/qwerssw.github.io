@@ -1,0 +1,1584 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Cera Pro';
+}
+.header {
+  &-container {
+      margin: 1.8vw 8.26vw 0 8.36vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+          display: flex;
+          align-items: center;
+          gap: 0.38vw;
+
+          &-foto {
+              width: 2.38vw;
+          }
+          &-text {
+              width: 7.6vw;
+          }
+      }
+
+      .menu {
+          &-list {
+              list-style-type: none;
+              padding: 0;
+              margin: 0;
+              gap: 3.52vw;
+              display: flex;
+          }
+
+          &-item {
+              text-align: left;
+
+              a {
+                  text-decoration: none;
+                  color: #3D3D3D;
+                  font-size: 1rem; // 16px = 1rem
+                  font-weight: 400;
+                  line-height: 1.2;
+              }
+          }
+
+          a:hover {
+              font-weight: 700;
+          }
+      }
+
+      &__icons {
+          display: flex;
+          gap: 2.15vw;
+          margin-left: 2.22vw;
+      }
+
+      &-icon1 {
+          width: 1.38vw;
+      }
+
+      &-icon2 {
+          width: 2vw;
+      }}
+a{
+  text-decoration: none;
+      .buttons {
+
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          padding: 0.48vw 1.18vw 0.55vw;
+          font-size: 1rem; // 16px = 1rem
+          cursor: pointer;
+          border-radius: 5px;
+          display: flex;
+          gap: 0.27vw;
+          align-items: center;
+
+          img {
+              width: 1.38vw;
+          }
+      }
+    }
+  
+
+  &-line {
+      border: 0.3px solid #46A35880;
+      width: 83.1vw;
+      margin: 1.12vw 0 0 8.36vw;
+  }
+}
+.main{
+    &_baner{
+  background:linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+  display: flex;
+  gap: 8.1vw;
+  margin: 0.82vw 8.26vw 0 8.26vw;//vw исправить на vh
+    }
+    &-title{
+       font-size: 0.97vw;
+       font-weight: 500;
+       color:#3D3D3D;
+       text-transform: uppercase;
+       margin-bottom: 0.28vw;
+      letter-spacing: 0.1vw;
+    }
+    &-subtitle{
+       color: #3D3D3D;
+        text-transform: uppercase;
+        font-weight:bolder;
+        font-size: 4.86vw;
+        line-height: 4.86vw;
+        margin-bottom: 0.68vw;
+        margin-left: -0.15vw;
+        span{
+          color: #4CAF50;
+        }
+    }
+    &-basictext{
+      color:#727272;
+      font-weight: 400;
+      font-size: 0.97vw;
+      line-height: 1.6vw;
+    }
+    a{
+      text-decoration: none;
+    .button{
+      background-color: #4CAF50; 
+      color: white;              
+      border: none;              
+      padding: 0.76vw 1.87vw 0.62vw 1.8vw;         
+      font-size: 1.11vw;          
+      cursor: pointer;          
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      width: 9.7vw;
+    }
+  }
+    &-content{
+      display: flex;
+      flex-direction: column;
+      gap:3vw;
+      margin-top: 4.54vw;
+      margin-left: 3.08vw;
+    }
+    &-image{
+    display: inline-block;
+    position: relative;
+    }
+
+    &-flowers{
+    
+        width: 100%;
+        height: auto;
+    }
+  
+.basic{
+  margin:2.7vw 8.26vw 0 8.26vw;
+  display: flex;
+  padding-bottom:5.575rem;
+  justify-content: space-between;
+  gap:1%;
+  .sort {
+    .filter {
+      background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+      padding: 1.1vw 1.7rem 2.45rem 1.3vw;
+  .burger-menu{
+    .burger-icon{
+      h4{
+        display: none;
+      }
+    }
+    .menu{
+      h2{
+        font-size:1rem;
+        letter-spacing: 0.07vw;
+        margin-bottom: 0.8vw;
+        font-weight: 700;
+        color: #3D3D3D;
+      }
+      .price-range{
+          margin-left: 0.63rem;
+      }
+      .price-text {
+        font-weight: 400;
+        font-size: 1rem; // Изменено на rem
+        color: #3D3D3D;
+        margin: 0.5rem 0 1vw 0.83rem;
+
+        span {
+          font-weight: 700;
+          color: #4CAF50;
+        }}
+        a{
+        .price-filter-button {
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          padding: 0.56rem 1.74rem 0.49rem 1.81rem;
+          font-size: 0.8rem; // Изменено на rem
+          cursor: pointer;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          font-weight: 700;
+          margin-left: 0.83rem;
+      }
+    }
+    }
+  }
+      &-categories {
+        font-weight: 700;
+        font-size: 1.25rem; // Изменено на rem для большей адаптивности
+        color: #3D3D3D;
+      }
+  
+      .plan-categories {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4vw; // Исправлено на более адекватное значение
+        margin: 1vw 0 3vw 0.83vw; // Исправлено на более адекватное значение
+        
+        .text {
+          font-weight: 400;
+          font-size: 1rem; // Изменено на rem
+          color: #3D3D3D; 
+          display: flex;
+          justify-content: space-between;
+          letter-spacing: -0.02; // Изменено на rem вместо vw
+        }
+  
+        .text:hover {
+          font-weight: 700;
+          color: #4CAF50;
+        }
+      }
+  
+  
+      .size-block {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem; 
+        margin-top: 3vw;
+        margin-bottom: 0.5rem;
+  
+        .size-title {
+          font-weight: 700;
+          font-size: 1.25rem; // Изменено на rem
+          color: #3D3D3D;
+        }
+  
+        .size-items {
+          margin-left: 0.78rem;
+          gap: 1rem; // Исправлено на более адекватное значение
+          display: flex;
+          flex-direction: column;
+  
+          .size-item {
+            display: flex;
+            justify-content: space-between;
+            color: #3D3D3D;
+          }
+  
+          .size-item:hover {
+            color: #4CAF50;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  
+    .supersalebunner {
+      width: 100%;
+    }
+  }
+    
+.product-listing{
+      display: flex;
+      flex-direction: column;
+      gap: 2.6vw;
+    .sortby{
+      display: flex;
+      justify-content: space-between;
+      
+.options{
+  display: flex;
+  gap:2.59vw;
+}
+.options h3:nth-child(2){
+  margin-right: 0.3vw;
+}
+      .options>*{
+        font-size: 1.04vw;
+        font-weight: 400;
+        color: #3D3D3D;
+      }
+    .dropdown>*{
+      font-size: 1.04vw;
+        font-weight: 400;
+        color: #3D3D3D;
+    }
+    .dropdown{
+      display: flex;
+      gap:0.5vw;
+      img{
+        width: 1.11vw;
+        aspect-ratio: 1 / 1;
+        margin-top: 0.35vw;
+      }
+    }
+    .dropdown h3:nth-child(2){
+      margin-right: 0.2vw;
+    }
+    }
+    .home-plans{
+      display: flex;
+      gap:6.16vh;//исправить
+      flex-direction:column;
+    .line{
+      display: flex;
+      gap:2.29vw;
+   a{   
+    text-decoration: none;
+    color: #3D3D3D;
+.product{
+  
+  &-image{
+    background:linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+    width: 17.9vw;
+    height: 20.8vw;
+   img{
+    width: 17.36vw;
+
+    margin: 2.15vw 0.2vw 0;
+    }
+  }
+  &-info{
+display: flex;
+flex-direction: column;
+margin-top: 0.6VW;
+  }
+  &-name{
+    font-weight: 400;
+    font-size: 1.11vw;
+  }
+  &-price{
+    font-weight: 700;
+    font-size: 1.25vw;
+    color: #4CAF50;
+  }
+}
+    }
+  }
+  }
+   }
+  }
+.pagination{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin: 0 8.26vw 0 0;
+  &-item{
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    padding: 9px 12px 10px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  span{
+    padding: 9px 8px 8px 8px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  &-item:hover {
+      background-color: #4CAF50;
+      color: #FFFFFF;
+      font-weight: 700;
+      border-color: #4CAF50;
+    }
+}
+.plant-collection-full{
+  display: flex;
+  margin: 8.2rem 8.26vw 0 8.26vw;
+  gap: 1.94vw;
+  width: 90%;
+  .plant-collection{
+    width: 45.5%;
+    display: flex;  
+    .plant-background{
+      position: relative;
+      display: flex;
+      background-color: #FBFBFB;
+      background-image: url("../../Img/bag.png");
+      background-size: cover; /* Заполняет элемент изображением */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Не повторяет изображение */
+    width: 100%; /* Ширина элемента */
+    height: 250px; /* Высота элемента */
+  .plant-image{
+    width: 45%;
+    height: auto;
+    position: absolute;
+    margin-top: -4vw;
+  }
+  
+  .hero-content{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    //padding: 37px 30px 46px 269px;
+    text-align: right;
+    gap:0.9vw;
+    position: absolute;
+    right: 32px;
+    bottom: 49px;
+  }
+  .hero-title{
+    font-size: 1.25vw;
+    font-weight: 900;
+    line-height: 1.6vw;
+    color: #3D3D3D;
+  }
+  .hero-description{
+    font-size: 0.97vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    color: #727272;
+  }
+  .cta-button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.67vw 1.85vw ;
+    gap: 5px;
+    font-size: 0.97vw;
+    cursor: pointer;
+    border-radius: 0.34vw;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-left:11.9vw;
+    text-decoration: none;
+    margin-top: 0.4vw;
+  }
+}
+}
+}
+.blog{
+  margin-top: 8.25rem;
+  &-textsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  gap:0.4vw;
+  &-post{
+    font-size: 2vw;
+    font-weight: 700;
+    color: #3D3D3D;
+  }
+    &-subtitle{
+font-size: 0.97vw;
+font-weight: 400;
+line-height: 1.6vw;
+color: #727272;
+    }
+}
+.gardening{
+  display: flex;
+  height: fit-content;
+  gap:2.97vw;
+  margin: 2.2vw 8.26vw 0 8.26vw;
+.content {
+  &-img{
+    width: 100%;
+  }
+  &-inf{
+  background-color:#FBFBFB;
+  padding: 0 0.764% 0.833% 1.042%;
+  display: flex;
+  flex-direction: column;
+  gap: 5.4px;
+  &-date {
+    font-weight: 500;
+    font-size:  0.875em;
+    line-height: 1.143em;
+    color: #4CAF50;
+  }
+  &-title{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.3em;
+    color:#3D3D3D;
+  }
+  &-description{
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #727272;
+  }
+  .readmore {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem; 
+
+    &-cta {
+        font-size: 0.875rem; 
+        line-height: 1rem; 
+        font-weight: 500;
+        color: #3D3D3D;
+        text-decoration: none;
+    }
+
+    .arrow {
+        margin-top: 0.625rem; 
+    }
+}
+}
+}
+} 
+}
+}
+footer {
+  margin: 128px 8.26vw 0 8.26vw; 
+.plantshops{
+  display: flex;
+    gap: 1.31rem; 
+    background-color: #FBFBFB;
+  &-item{
+      display: flex;
+      gap: 1.63rem; 
+      justify-content: space-around;
+      padding: 1.9% 1.74% 1.97% 2%; 
+      &-care{
+          &-title{
+          font-size: 1.18vw; 
+        line-height: 1rem; 
+        font-weight: 700;
+        color: #3D3D3D;
+        margin-top: 11px;
+      }
+          &-subtitle{
+              margin-top: 9px;
+              font-size:0.97vw; 
+              line-height: 1.375rem; 
+              font-weight: 400;
+              width: 12.75rem; 
+          }
+      }
+  }
+  .line{
+      width: 0.69444%; 
+        background-color: #46A3581A;
+  }
+  &-watering{
+      margin: 7px 0 0 10px;
+      &-title{
+          font-size: 1.18vw; 
+        line-height: 1rem; 
+        font-weight: 700;
+        color: #3D3D3D;
+        margin-top: 9px;
+        letter-spacing: -0.2px;
+      }
+          &-subtitle{
+              margin-top: 0.97vw;
+              font-size: 0.875rem; 
+              line-height: 1.375rem; 
+              font-weight: 400;
+              width: 12.75rem; 
+          }
+  }
+  &-email{
+      margin: 7px 0 0 10px;
+      &-title{
+          font-size: 1.18vw; 
+        line-height: 1rem; 
+        font-weight: 700;
+        color: #3D3D3D;
+        margin-top: 9px;
+        letter-spacing: -0.2px;
+      }
+          &-subtitle{
+              margin-top: 0.97vw;
+              font-size: 0.875rem; 
+              line-height: 1.375rem; 
+              font-weight: 400;
+              width: 12.75rem; 
+          }
+  }
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem; 
+  padding: 2.74% 2.2% 1.67% 1.60%; 
+  &-title{
+      font-size: 1.25vw;
+      color: #3D3D3D;
+      font-weight: 800;
+      letter-spacing: -0.1px;
+  }
+
+  &-email-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  &-email-input {
+      flex-grow: 1;
+      padding: 0.74rem 0.8rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.5px;
+      border: none;
+      border-radius: 0.25rem 0 0 0.25rem;
+      outline: none;
+  }
+
+  &-email-submit {
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.51rem 1.5rem;
+      border: none;
+      border-radius: 0 0.25rem 0.25rem 0;
+      cursor: pointer;
+      font-size: 1.125rem;
+      font-weight: 700;
+  }
+  &-description{
+      font-size: 13px;
+      font-weight: 400;
+      color: #727272;
+      margin-top: 4px;
+      line-height: 22px;
+  }
+}
+.greeneshop {
+  background-color: #46A3581A;
+  display: flex;
+  gap:76.4px;
+  align-items: center;
+  padding: 1.4rem 13.6rem 1.4rem 1.5rem; 
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.38vw;
+
+    &-foto {
+      width: 2.38vw; 
+    }
+
+    &-text {
+      width: 7.6vw; 
+    }
+  }
+
+  .location{
+    display: flex;
+    gap: 10px;
+    margin: 1px 0 0 11px;
+    p {
+      font-size: 0.875rem; 
+      color: #3D3D3D;
+      line-height: 1.375rem; 
+    }
+    img{
+width: 20px;
+height: 20px;
+margin-top: 11px;
+    }
+  }
+  .email{
+      display: flex;
+      gap: 10px;
+      margin-left: -6px;
+      p {
+        font-size: 0.875rem; 
+        color: #3D3D3D;
+        line-height: 1.375rem; 
+        
+      }
+      img{
+width: 20px;
+height: 20px;
+margin-top: 1px;
+      }
+    }
+    .nomber {
+      display: flex;
+      gap: 7px;
+margin-left: -2px;
+    p {
+      font-size: 0.875rem; 
+      color: #3D3D3D;
+      line-height: 1.375rem; 
+      
+    }
+    img{
+width: 20px;
+height: 20px;
+margin-top: 1px;
+    }
+  
+}
+}
+.navigation {
+  display: flex;
+  gap: 8.94rem; 
+  background-color: #FBFBFB;
+  padding: 1.8rem 5.69rem 1.69rem 1.5rem; 
+
+  .account {
+    display: flex;
+    flex-direction: column;
+    gap: 0.54rem; 
+
+    h2 {
+      font-size: 1.125rem; 
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 0.875rem; 
+      font-weight: 400;
+      margin-top: 3px;
+    }
+  }
+  .help{
+    display: flex;
+    flex-direction: column;
+    gap: 0.54rem; 
+margin-left: 22px;
+    h2 {
+      font-size: 1.125rem; 
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 0.875rem; 
+      font-weight: 400;
+      margin-top: 3px;
+    }
+  }
+  
+  .categories {
+    display: flex;
+    flex-direction: column;
+    gap: 0.54rem; 
+margin-left: -3px;
+    h2 {
+      font-size: 1.125rem; 
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 0.875rem; 
+      font-weight: 400;
+      margin-top: 3px;
+    }
+  }
+}
+
+.acepted-payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem; 
+margin-left: 1.8rem;
+  .media {
+    display: flex;
+    flex-direction: column;
+    gap: 0.95rem; 
+
+    h2 {
+      font-size: 1.125rem; 
+      font-weight: 700;
+    }
+
+    .medias {
+      display: flex;
+      gap: 0.52rem; 
+    }
+  }
+
+  .pay {
+    display: flex;
+    flex-direction: column;
+    gap: 0.61rem; 
+
+    h2 {
+      font-size: 1.125rem; 
+      font-weight: 700;
+    }
+  }
+}
+}
+@media(max-width:474px){
+  .header{
+
+    &-container{
+        gap: 0;
+        .menu {
+            position: relative;
+            margin-left: 40vw;
+        }
+        
+        .burger {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            margin: 10px; /* Отступ для удобства */
+        }
+        
+        .line {
+            width: 15px;
+            height: 1.5px;
+            background-color: #3e7c4b;
+            margin: 1px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            gap: 3.52vw;
+            display: none; 
+            flex-direction: column;
+            position: absolute; // Меню должно быть абсолютным относительно родителя
+            z-index: 1000; // Убедитесь, что меню находится поверх других элементов
+            background-color: rgba(255, 255, 255, 0.9); // Полупрозрачный белый фон
+border-radius: 8px; // Закругленные углы
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Тень для глубины
+padding: 10px; // Отступы внутри меню
+        }
+        
+        .menu-item {
+            text-align: left;
+        
+            a {
+                text-decoration: none;
+                color: #3D3D3D;
+                font-size: 1rem; 
+                font-weight: 400;
+                line-height: 1.2;
+                padding: 10px 15px; 
+            }
+        }
+        
+        .menu-list.show {
+            display: flex; 
+        }
+        
+        a:hover {
+            font-weight: 700;
+        }
+        
+        /* Анимация для бургер-меню */
+        .burger.active .line:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        
+        .burger.active .line:nth-child(2) {
+            opacity: 0; /* Скрываем среднюю линию */
+        }
+        
+        .burger.active .line:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+        &-icon1{
+            width: 2rem;
+        }
+    
+    }
+            &-line{
+        margin:1.12vw 0 0 0;
+        width: 100%;
+    }
+}
+.main{
+&_baner{
+    display: none;
+}
+
+.basic{
+  .sort {
+    .filter{
+       .burger-menu{ 
+        .burger-icon{
+          h4{
+font-size: 0.6rem !important;
+          }
+        }
+      }
+    }
+  }
+  .product-listing{ 
+    .sortby{
+      .options>*{
+        font-size: 0.6rem !important;
+      }
+      .dropdown>*{
+        font-size: 0.6rem !important;
+      }
+    }  
+  .home-plans{
+    gap: 5vw;
+    .line{
+      justify-content: space-between;
+    a{
+      .product{
+        &-image{
+          width: 22.9vw;
+          height: 25.8vw;
+        img{
+          width: 20.36vw;
+        }
+        }
+        &-name{
+          font-size: 0.6rem !important;
+        }
+        &-price{
+          font-size: 0.5rem !important;
+        }
+      }
+    }
+    }
+    }
+  }
+}
+.plant-collection-full{
+  display: none;
+}
+}
+footer {
+  margin: 44px 0 0 0 !important;
+  .plantshops{
+      flex-direction: column;
+  .plantshops-item{
+      flex-direction: column;
+      &-care{
+          img{
+              display: none;
+          }
+      }
+      .plantshops-watering{
+          img{
+              display: none;
+          }
+      }
+      .plantshops-email{
+          img{
+              display: none;
+          }
+      }
+      }
+  }
+  .line4{
+      display: block;
+  }
+  .greeneshop{
+      flex-direction: column;
+      gap:2rem !important; 
+  }
+  .navigation{
+      flex-direction: column;
+      .information {
+          flex-direction: column;
+          gap:1vw;
+          .account{
+              &-steps{
+                  display: none;
+                  
+              }
+          }
+          .help{
+              margin-left: 0;
+              &-steps{
+                  display: none;
+              }
+          }
+          .categories{
+              margin-left: 0;
+              &-steps{
+                  display: none;
+              }
+          }
+      }
+  }
+  .acepted-payment-methods {
+      margin-left: 0;
+  }
+}
+}
+@media (max-width: 655px){
+  footer{
+    .greeneshop{
+      flex-direction: column;
+        gap: 2rem !important;
+    }
+  }
+}
+@media (max-width: 715px){
+.main{
+
+  .blog{
+  .gardening{
+    flex-direction: column;
+    margin-left: 27vw;
+    .content{
+      &-img{
+        width: 75%;
+      }
+      &-inf{
+        width: 75%;
+      }
+    }
+  }
+}
+.plant-collection-full{
+display: none;
+}
+}
+}
+@media (max-width: 768px) {
+  .header{
+      &-container{
+           margin: 1.8vw 8.26vw 0 8.36vw !important;
+
+          .menu{
+              &-list{
+                  gap:3.8vw;
+              }
+              &-item{
+                a{
+                  font-size: 0.7rem;
+                }
+              }
+      }
+      &-icon1{
+          width:0.7rem ;
+      }
+      &-icon2{
+          width: 1.1rem;
+      }
+      &__buttons{
+      font-size: 0.7rem;
+      }
+      }
+      }
+    }
+@media (max-width: 925px){
+  .header{
+&-container{
+ .menu{
+     &-list{
+         gap:3.8vw;
+     }
+}
+&-icon1{
+ width:0.7rem ;
+}
+&-icon2{
+ width: 1.1rem;
+}
+
+}
+}    
+  footer{
+        margin: 128px 4.26vw 0 4.26vw;
+.plantshops{
+    &-item{
+        flex-direction: column;
+        gap: 0.8rem;
+        width: 13rem;
+        .line{display: none;}
+        &-care{
+            img{
+                display: none;
+            }
+            &-subtitle{
+                display: none;
+            }
+            &-title{
+                font-size: 0.8rem;
+            }
+        }
+    }
+    &-watering{
+        margin-left: 0;
+        margin-top: 0;
+        img{
+            display: none;
+        }
+        &-subtitle{
+            display: none;
+        }
+        &-title{
+            font-size: 0.8rem;
+        }
+    }
+    &-email{
+        margin-left: 0;
+        margin-top: 0;    
+            img{
+                display: none;
+            }
+            &-subtitle{
+                display: none;
+            }
+            &-title{
+                font-size: 0.8rem;
+            }
+    }
+}
+
+.newsletter{
+    &-title{
+        font-size: 0.8rem;
+    }
+    &-email{
+        &-input{
+            flex-grow: 0.5;
+        }
+        &-submit{
+            font-size: 0.9rem;
+        }
+    }
+    &-description{
+        font-size: 0.65rem;
+    }
+}
+.greeneshop{
+    gap: 3rem;
+    padding-right: 0.9rem;
+    .logo{
+display: none;
+    }
+    .location{
+        p{
+            font-size: 0.7rem;
+        }
+    }
+    .email{
+        p{
+            font-size: 0.7rem;
+        }
+        .nomber{
+            p{
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+.navigation{
+    flex-direction: column;
+    gap: 3rem;
+    .information{
+        gap: 3rem;
+        justify-content: space-between;
+        .account,.help,.categories{
+            .toggle{
+                font-size: 1rem;
+            }
+            &-steps{
+                li{
+                font-size: 0.8rem;
+                }
+            }
+        }
+
+    }
+    .acepted-payment-methods{
+        margin-left: 0;
+        .media,.pay{
+            flex-direction: row;
+            h2{
+                font-size: 0.9rem;
+            }
+        }
+
+    }
+}
+    }
+    }
+@media (max-width: 1111px){
+      footer{
+          .navigation{
+              flex-direction: column;
+              gap: 3rem;
+              .information{
+                  gap: 3rem;
+                  justify-content: space-between;
+                  .account,.help,.categories{
+                      .toggle{
+                          font-size: 1rem;
+                      }
+                      &-steps{
+                          li{
+                          font-size: 0.8rem;
+                          }
+                      }
+                  }
+          
+              }
+              .acepted-payment-methods{
+                  margin-left: 0;
+                  .media,.pay{
+                      flex-direction: row;
+                      h2{
+                          font-size: 0.9rem;
+                      }
+                  }
+          
+              }
+          }
+      }
+  }
+@media (max-width: 1021px) {
+  .main{
+    &-flowers{
+      width: 89%;
+    }
+ 
+  .basic{
+    flex-direction: column;
+    padding-bottom: 4vw;
+    .sort{
+.supersalebunner{
+  display: none;
+}
+      .filter {
+        padding: 0;
+        background: none;
+        .filter-categories {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #3D3D3D;
+
+        }
+    
+        .burger-menu {
+            position: relative;
+
+            .burger-icon {
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                h4 {
+                    display: block;
+                    margin: 0; // Убираем отступы
+                    color: #3D3D3D; // Цвет текста
+                    font-size: 0.8rem;
+                    font-weight: 500;
+                    margin-bottom: 2vw;
+                }
+            }
+    
+            .menu {
+                display: none; // Скрываем меню по умолчанию
+                position: absolute;
+                top: 50px; // Позиция под бургером
+                left: 0;
+                background-color: white;
+                border: 1px solid #ccc;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 10px;
+                z-index: 1000; // Чтобы меню было поверх других элементов
+    
+                .plan-categories {
+                    display: flex;
+                    flex-direction: column;
+                }
+    
+                .text {
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color: #3D3D3D; 
+                    display: flex;
+                    justify-content: space-between;
+    
+                    &:hover {
+                        font-weight: 700;
+                        color: #4CAF50;
+                    }
+                }
+    
+                .renge-title {
+                    margin-top: 10px; // Увеличиваем отступ сверху
+                }
+    
+                .size-block {
+                    margin-top: 10px; // Увеличиваем отступ сверху
+                }
+            }
+    
+            .menu.show {
+                display: flex; 
+                flex-direction: column;
+            }
+        }
+    
+        .line {
+            width: 15px;
+            height: 1.5px;
+            background-color: #3e7c4b;
+            margin: 1px 0;
+            transition: all 0.3s ease;
+        }
+    
+        // Анимация для бургер-меню
+        .burger-menu.active .line:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        
+        .burger-menu.active .line:nth-child(2) {
+            opacity: 0; // Скрываем среднюю линию
+        }
+        
+        .burger-menu.active .line:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+      }
+  }
+
+  .product-listing{
+    .sortby{
+      .options>*{
+        font-size: 0.7rem;
+      }
+      .dropdown>*{
+        font-size: 0.7rem;
+      }
+    }  
+  .home-plans{
+    gap: 5vw;
+    .line{
+      justify-content: space-between;
+    a{
+      .product{
+        &-image{
+          width: 22.9vw;
+          height: 25.8vw;
+        img{
+          width: 20.36vw;
+        }
+        }
+        &-name{
+          font-size: 0.8rem;
+        }
+        &-price{
+          font-size: 0.7rem;
+        }
+      }
+    }
+    }
+    }
+  }
+} 
+.pagination{
+  &-item{
+    font-size: 0.7rem;
+    padding: 0.5vw 1.5vw;
+  }
+  span{
+    padding: 0.3vw;
+    img{
+      width: 1vw;
+      height: 1vw;
+    }
+  }
+} 
+.blog{
+  margin-top: 6rem;
+  .gardening{
+    .content{
+      &-inf{
+        &-title{
+          font-size: 0.8rem;
+        }
+        &-description{
+          font-size: 0.6rem;
+        }
+        .readmore:nth-child(4){
+          margin-top: 1vw;
+        }
+      }
+    }
+  }
+  &-textsection{
+    &-post{
+      font-size: 1rem;
+    }
+    &-subtitle{
+      font-size: 0.7rem;
+    }
+  }
+}
+.plant-collection-full{
+    .plant-collection{
+      .plant-background{
+        height: 131px;
+        .hero-content{
+          bottom: 21px;
+        }
+        .plant-image{
+          width: 48%;
+        }
+      }
+    }
+}
+ }
+ footer{
+      margin: 128px 4.26vw 0 4.26vw;
+.plantshops{
+  &-item{
+      flex-direction: column;
+      gap: 0.8rem;
+      width: 13rem;
+      .line{display: none;}
+      &-care{
+          img{
+              display: none;
+          }
+          &-subtitle{
+              display: none;
+          }
+          &-title{
+              font-size: 0.8rem;
+          }
+      }
+  }
+  &-watering{
+      margin-left: 0;
+      margin-top: 0;
+      img{
+          display: none;
+      }
+      &-subtitle{
+          display: none;
+      }
+      &-title{
+          font-size: 0.8rem;
+      }
+  }
+  &-email{
+      margin-left: 0;
+      margin-top: 0;    
+          img{
+              display: none;
+          }
+          &-subtitle{
+              display: none;
+          }
+          &-title{
+              font-size: 0.8rem;
+          }
+  }
+}
+
+.newsletter{
+  &-title{
+      font-size: 0.8rem;
+  }
+  &-email{
+      &-input{
+          flex-grow: 0.5;
+      }
+      &-submit{
+          font-size: 0.9rem;
+      }
+  }
+  &-description{
+      font-size: 0.65rem;
+  }
+}
+.greeneshop{
+  gap: 3rem;
+  padding-right: 0.9rem;
+  .logo{
+display: none;
+  }
+  .location{
+      p{
+          font-size: 0.7rem;
+      }
+  }
+  .email{
+      p{
+          font-size: 0.7rem;
+      }
+      .nomber{
+          p{
+              font-size: 0.7rem;
+          }
+      }
+  }
+}
+.navigation{
+  flex-direction: column;
+  gap: 3rem;
+  .information{
+      gap: 3rem;
+      justify-content: space-between;
+      .account,.help,.categories{
+          .toggle{
+              font-size: 1rem;
+          }
+          &-steps{
+              li{
+              font-size: 0.8rem;
+              }
+          }
+      }
+
+  }
+  .acepted-payment-methods{
+      margin-left: 0;
+      .media,.pay{
+          flex-direction: row;
+          h2{
+              font-size: 0.9rem;
+          }
+      }
+
+  }
+}
+  }
+}
+@media (min-width: 1024px) and (max-width: 1118px)  {
+  .header{
+&-container{
+ .menu{
+     &-list{
+         gap:3.8vw;
+     }
+}
+&-icon1{
+ width:0.7rem ;
+}
+&-icon2{
+ width: 1.1rem;
+}
+}
+}    
+  .main{
+    &_baner{
+      margin: 0.82vw 7.26vw 0 7.26vw ;
+    }
+  
+    .basic{
+   
+    margin: 2.7vw 7.26vw 0 7.26vw;
+    
+  }
+}
+}
+@media (max-width: 1240px) {
+  footer{
+      .plantshops{
+          flex-wrap: wrap;
+      }
+  }
+  }
+@media (max-width: 1278px){
+  footer{
+      .plantshops{
+          flex-direction: column;
+      }
+  }
+}

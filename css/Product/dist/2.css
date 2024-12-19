@@ -1,0 +1,1280 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cera Pro";
+}
+
+.header-container {
+  margin: 1.8vw 8.26vw 0 8.36vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.38vw;
+}
+.header-container .logo-foto {
+  width: 2.38vw;
+}
+.header-container .logo-text {
+  width: 7.6vw;
+}
+.header-container .menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 3.52vw;
+  display: flex;
+}
+.header-container .menu-item {
+  text-align: left;
+}
+.header-container .menu-item a {
+  text-decoration: none;
+  color: #3D3D3D;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.header-container .menu a:hover {
+  font-weight: 700;
+}
+.header-container__icons {
+  display: flex;
+  gap: 2.15vw;
+  margin-left: 2.22vw;
+}
+.header-container-icon1 {
+  width: 1.38vw;
+}
+.header-container-icon2 {
+  width: 2vw;
+}
+.header a {
+  text-decoration: none;
+}
+.header a .buttons {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.48vw 1.18vw 0.55vw;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  gap: 0.27vw;
+  align-items: center;
+}
+.header a .buttons img {
+  width: 1.38vw;
+}
+.header-line {
+  border: 0.3px solid #46A35880;
+  width: 83.1vw;
+  margin: 1.12vw 0 0 8.36vw;
+}
+
+main .page {
+  margin: 2.3vw 8.26vw 0 8.36vw;
+}
+main .page a {
+  text-decoration: none;
+  color: #3D3D3D;
+  font-size: 15px;
+}
+main .page span {
+  font-size: 15px;
+}
+main .page .home {
+  font-weight: 700;
+  font-size: 15px;
+}
+main .products {
+  display: flex;
+  margin: 2.9vw 8.26vw 0 8.36vw;
+  gap: 3.75vw;
+  height: auto;
+  max-width: 100%;
+}
+main .products .product-imege {
+  display: flex;
+  gap: 1.81rem;
+  width: 39.7vw;
+  height: 31.1vw;
+  gap: 2vw;
+}
+main .products .product-imege .secondary-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .products .product-imege .secondary-images img {
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #FBFBFB;
+  width: 6.94vw;
+  height: 6.94vw;
+}
+main .products .product-imege .main-image {
+  background-color: #FBFBFB;
+  border-radius: 6px;
+  width: 30.76vw;
+  height: 30.73vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .products .product-imege .main-image img {
+  width: 28vw;
+  height: 28vw;
+}
+main .products .discription-product h2 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #3D3D3D;
+  line-height: 14px;
+  letter-spacing: -0.1px;
+  margin-bottom: 1.45vw;
+}
+main .products .discription-product .estimation {
+  margin-bottom: 0.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .products .discription-product .estimation .price {
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: #4CAF50;
+  line-height: 16px;
+}
+main .products .discription-product .estimation .ratings {
+  display: flex;
+  gap: 0.7vw;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 0.13vw;
+}
+main .products .discription-product .estimation .ratings p {
+  margin-top: 0.09vw;
+  font-size: 0.937rem;
+  font-weight: 400;
+  color: #3D3D3D;
+}
+main .products .discription-product .estimation .ratings .stars {
+  margin-top: 0.2vw;
+}
+main .products .discription-product .estimation .ratings .stars img {
+  margin-left: -0.9px;
+  width: 1vw;
+  height: 1vw;
+}
+main .products .discription-product .line-product {
+  border: 0.3px solid #46A35880;
+  width: 39.8vw;
+  margin-bottom: 1.31vh;
+}
+main .products .discription-product h5 {
+  font-weight: 500;
+  font-size: 15px;
+  color: #3D3D3D;
+  letter-spacing: 0.1px;
+  margin-bottom: 0.6vw;
+}
+main .products .discription-product .text-discription {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+  margin-left: 0.07vw;
+  line-height: 2.6vh;
+  margin-bottom: 1.78vh;
+}
+main .products .discription-product .size-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.66vw;
+  margin-left: 0.3rem;
+}
+main .products .discription-product .size-selection span {
+  font-weight: 500;
+  font-size: 15px;
+  /* Примерный перевод для 15px */
+  color: #3D3D3D;
+}
+main .products .discription-product .size-selection .size {
+  display: flex;
+  gap: 0.72vw;
+  /* Примерный перевод для 10px */
+  cursor: pointer;
+}
+main .products .discription-product .size-selection .size-button {
+  border: 1px solid #EAEAEA;
+  border-radius: 15px;
+  width: 1.84vw;
+  /* Примерный перевод для 28px */
+  height: 1.84vw;
+  /* Примерный перевод для 28px */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  /* Примерный перевод для 14px */
+}
+main .products .discription-product .size-selection .size-button:active {
+  border: 1px solid #FF5733;
+  /* Цвет границы при нажатии */
+  font-weight: 700;
+  color: #FF5733;
+  /* Цвет текста при нажатии (если это необходимо) */
+}
+main .products .discription-product .cart-controls {
+  display: flex;
+  gap: 1.81vw;
+  margin-top: 2.61vh;
+  margin-left: 0.2rem;
+}
+main .products .discription-product .cart-controls .quantity {
+  display: flex;
+  gap: 1.6vw;
+}
+main .products .discription-product .cart-controls .quantity #decrease {
+  border: none;
+  border-radius: 2vw;
+  width: 2.29vw;
+  height: 2.63vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #46A358;
+  color: #ffffff;
+}
+main .products .discription-product .cart-controls .quantity #decrease .line2 {
+  border: 2px solid #FFFFFF;
+  width: 0.625vw;
+}
+main .products .discription-product .cart-controls .quantity #increase {
+  border: none;
+  border-radius: 2vw;
+  width: 2.29vw;
+  height: 2.63vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #46A358;
+  color: #ffffff;
+  font-size: 1.9vw;
+  line-height: 1.1vw;
+}
+main .products .discription-product .cart-controls .quantity .quantitys {
+  width: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+main .products .discription-product .cart-controls .buttons {
+  display: flex;
+  gap: 9px;
+}
+main .products .discription-product .cart-controls .buttons a {
+  text-decoration: none;
+}
+main .products .discription-product .cart-controls .buttons a .buy-now {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.86vw 2.2vw 0.76vw 2.2vw;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+main .products .discription-product .cart-controls .buttons a {
+  text-decoration: none;
+}
+main .products .discription-product .cart-controls .buttons a .add-to-cart {
+  background-color: #ffffff;
+  color: #46A358;
+  border: 1px solid #46A358;
+  padding: 0.76vw 1.3vw 0.8vw 1.4vw;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+main .products .discription-product .cart-controls .buttons .favorite {
+  background-color: #ffffff;
+  color: #46A358;
+  border: 1px solid #46A358;
+  padding: 0.56vw 0.7vw 0.46vw 0.51vw;
+  cursor: pointer;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+main .products .discription-product .cart-controls .buttons .favorite img {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+main .products .discription-product .parameters {
+  margin-top: 2.2vh;
+  letter-spacing: 0.1px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-left: 0.2rem;
+}
+main .products .discription-product .shape {
+  display: flex;
+  margin-top: 1rem;
+  gap: 16px;
+  margin-left: 0.2rem;
+}
+main .products .discription-product .shape p {
+  letter-spacing: 0.01vw;
+  font-size: 15px;
+  font-weight: 500;
+}
+main .products .discription-product .shape .message {
+  display: flex;
+  gap: 16px;
+  margin-top: 0.28vw;
+}
+main .products .discription-product .shape .message img:nth-child(1) {
+  width: 0.5rem;
+}
+main .products .discription-product .shape .message img:nth-child(2) {
+  width: 1rem;
+  margin-left: 0.21vw;
+}
+main .products .discription-product .shape .message img:nth-child(3) {
+  width: 0.9rem;
+  margin-left: 0.28vw;
+}
+main .products .discription-product .shape .message img:nth-child(4) {
+  width: 1rem;
+}
+main .descriotion {
+  margin: 6.1vw 8.26vw 0 8.56vw;
+}
+main .descriotion .product {
+  display: flex;
+  color: #4CAF50;
+  font-weight: 700;
+  font-size: 0.76rem;
+  gap: 2.16vw;
+  letter-spacing: -0.8px;
+}
+main .descriotion .product .title2 {
+  color: #3D3D3D;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+}
+main .descriotion .line {
+  border: 0.3px solid rgba(70, 163, 88, 0.5019607843);
+  width: 83.1vw;
+  margin: 0.7vw 0 0 0;
+}
+main .descriotion .text h2 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3D3D3D;
+  margin-top: -6.4px;
+  letter-spacing: -0.6px;
+}
+main .descriotion .text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+  margin-bottom: 1.5vw;
+  margin-top: 1.1vw;
+  width: 83.2vw;
+  line-height: 1.5rem;
+}
+main .descriotion .text .one {
+  margin-top: 0.7px;
+}
+main .descriotion .text .two, main .descriotion .text .trea {
+  margin-top: 0.2px;
+  margin-bottom: 21px;
+}
+main .releted {
+  margin: 8.56vw 8.26vw 0 8.36vw;
+}
+main .releted h2 {
+  color: #4CAF50;
+  font-weight: 700;
+  font-size: 1.18vw;
+}
+main .releted .line {
+  border: 0.2px solid rgba(70, 163, 88, 0.5019607843);
+  width: 83.1vw;
+  margin: 0.7vw 0 0 0;
+}
+main .line {
+  display: flex;
+  gap: 1.9vw;
+  margin: 2.9vw 8.26vw 0 8.36vw;
+}
+main .line .product-image {
+  background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+  width: 15vw;
+  height: 17.8vw;
+}
+main .line .product-image img {
+  width: 14.36vw;
+  aspect-ratio: 1/1;
+  margin: 1.8vw 0.2vw 0;
+}
+main .line .product-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6VW;
+  font-size: 14px;
+}
+main .line .product-info h3 {
+  font-size: 1vw;
+  color: #3D3D3D;
+  font-weight: 400;
+}
+main .line .product-info p {
+  color: #4CAF50;
+  font-size: 1.1vw;
+  font-weight: 700;
+}
+main .circles {
+  display: flex;
+  gap: 10px;
+  margin: 61px 8.26vw 0 8.36vw;
+  justify-content: center;
+}
+main .circles .circle {
+  width: 0.83vw;
+  height: 0.83vw;
+  border-radius: 10px;
+  border: 1.3px solid #46A358;
+}
+main .circles .circle:nth-child(2) {
+  background-color: #46A358;
+}
+
+footer {
+  margin: 128px 8.26vw 0 8.26vw;
+}
+footer .plantshops {
+  display: flex;
+  gap: 1.31rem;
+  background-color: #FBFBFB;
+}
+footer .plantshops-item {
+  display: flex;
+  gap: 1.63rem;
+  justify-content: space-around;
+  padding: 1.9% 1.74% 1.97% 2%;
+}
+footer .plantshops-item-care-title {
+  font-size: 1.18vw;
+  line-height: 1rem;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-top: 11px;
+}
+footer .plantshops-item-care-subtitle {
+  margin-top: 9px;
+  font-size: 0.97vw;
+  line-height: 1.375rem;
+  font-weight: 400;
+  width: 12.75rem;
+}
+footer .plantshops .line {
+  width: 0.69444%;
+  background-color: #46A3581A;
+}
+footer .plantshops-watering {
+  margin: 7px 0 0 10px;
+}
+footer .plantshops-watering-title {
+  font-size: 1.18vw;
+  line-height: 1rem;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-top: 9px;
+  letter-spacing: -0.2px;
+}
+footer .plantshops-watering-subtitle {
+  margin-top: 0.97vw;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  width: 12.75rem;
+}
+footer .plantshops-email {
+  margin: 7px 0 0 10px;
+}
+footer .plantshops-email-title {
+  font-size: 1.18vw;
+  line-height: 1rem;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-top: 9px;
+  letter-spacing: -0.2px;
+}
+footer .plantshops-email-subtitle {
+  margin-top: 0.97vw;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  width: 12.75rem;
+}
+footer .line4 {
+  border: 1px solid #46a3596b;
+  width: 100%;
+  display: none;
+}
+footer .newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 2.74% 2.2% 1.67% 1.6%;
+}
+footer .newsletter-title {
+  font-size: 1.25vw;
+  color: #3D3D3D;
+  font-weight: 800;
+  letter-spacing: -0.1px;
+}
+footer .newsletter-email-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+footer .newsletter-email-input {
+  flex-grow: 1;
+  padding: 0.74rem 0.8rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 0.25rem 0 0 0.25rem;
+  outline: none;
+}
+footer .newsletter-email-submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.51rem 1.5rem;
+  border: none;
+  border-radius: 0 0.25rem 0.25rem 0;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .newsletter-description {
+  font-size: 13px;
+  font-weight: 400;
+  color: #727272;
+  margin-top: 4px;
+  line-height: 22px;
+}
+footer .greeneshop {
+  background-color: #46A3581A;
+  display: flex;
+  gap: 76.4px;
+  align-items: center;
+  padding: 1.4rem 13.6rem 1.4rem 1.5rem;
+}
+footer .greeneshop .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.38vw;
+}
+footer .greeneshop .logo-foto {
+  width: 2.38vw;
+}
+footer .greeneshop .logo-text {
+  width: 7.6vw;
+}
+footer .greeneshop .location {
+  display: flex;
+  gap: 10px;
+  margin: 1px 0 0 11px;
+}
+footer .greeneshop .location p {
+  font-size: 0.875rem;
+  color: #3D3D3D;
+  line-height: 1.375rem;
+}
+footer .greeneshop .location img {
+  width: 20px;
+  height: 20px;
+  margin-top: 11px;
+}
+footer .greeneshop .email {
+  display: flex;
+  gap: 10px;
+  margin-left: -6px;
+}
+footer .greeneshop .email p {
+  font-size: 0.875rem;
+  color: #3D3D3D;
+  line-height: 1.375rem;
+}
+footer .greeneshop .email img {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+}
+footer .greeneshop .nomber {
+  display: flex;
+  gap: 7px;
+  margin-left: -2px;
+}
+footer .greeneshop .nomber p {
+  font-size: 0.875rem;
+  color: #3D3D3D;
+  line-height: 1.375rem;
+}
+footer .greeneshop .nomber img {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+}
+footer .navigation {
+  display: flex;
+  gap: 8.94rem;
+  background-color: #FBFBFB;
+  padding: 1.5rem 5.69rem 1.69rem 1.5rem;
+}
+footer .navigation .information {
+  display: flex;
+  gap: 8.9rem;
+}
+footer .navigation .information .account {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+}
+footer .navigation .information .account .toggle {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .navigation .information .account-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+  overflow: hidden;
+  /* Скрываем переполнение */
+  transition: max-height 0.2s ease-out;
+}
+footer .navigation .information .account-steps li {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 3px;
+  list-style-type: none;
+}
+footer .navigation .information .help {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+  margin-left: 22px;
+}
+footer .navigation .information .help .toggle {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .navigation .information .help-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+}
+footer .navigation .information .help-steps li {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 3px;
+  list-style-type: none;
+}
+footer .navigation .information .categories {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+  margin-left: -3px;
+}
+footer .navigation .information .categories .toggle {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .navigation .information .categories-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+}
+footer .navigation .information .categories-steps li {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 3px;
+  list-style-type: none;
+}
+footer .acepted-payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin-left: 1.8rem;
+}
+footer .acepted-payment-methods .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+}
+footer .acepted-payment-methods .media h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .acepted-payment-methods .media .medias {
+  display: flex;
+  gap: 0.52rem;
+}
+footer .acepted-payment-methods .pay {
+  display: flex;
+  flex-direction: column;
+  gap: 0.61rem;
+}
+footer .acepted-payment-methods .pay h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+@media (max-width: 321px) {
+  .header-container {
+    width: 100%;
+  }
+  .header-container .menu {
+    position: relative;
+    margin-left: 40vw !important;
+  }
+}
+@media (max-width: 479px) {
+  .header-container {
+    gap: 0 !important;
+    /* Анимация для бургер-меню */
+  }
+  .header-container .menu {
+    position: relative;
+    margin-left: 46vw;
+  }
+  .header-container .burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 10px;
+    /* Отступ для удобства */
+  }
+  .header-container .line {
+    width: 15px;
+    height: 1.5px;
+    background-color: #3e7c4b;
+    margin: 1px 0;
+    transition: all 0.3s ease;
+  }
+  .header-container .menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 3.52vw;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  .header-container .menu-item {
+    text-align: left;
+  }
+  .header-container .menu-item a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 10px 15px;
+  }
+  .header-container .menu-list.show {
+    display: flex;
+  }
+  .header-container a:hover {
+    font-weight: 700;
+  }
+  .header-container .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .header-container .burger.active .line:nth-child(2) {
+    opacity: 0;
+    /* Скрываем среднюю линию */
+  }
+  .header-container .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  .header-container-icon1 {
+    width: 2rem;
+  }
+  .header-line {
+    margin: 1.12vw 0 0 0;
+    width: 100%;
+  }
+
+  main .products {
+    flex-direction: column;
+    gap: 0;
+    margin: 2.8vw 0 0 0 !important;
+  }
+  main .products .product-imege {
+    width: 100%;
+  }
+  main .products .product-imege .main-image {
+    width: 100%;
+    height: 70vw !important;
+    border-radius: 1px;
+    justify-items: center;
+  }
+  main .products .product-imege .main-image img {
+    width: 46vw;
+    height: 46vw;
+    margin-top: -7rem;
+  }
+  main .products .product-imege .secondary-images {
+    display: none;
+  }
+  main .products .discription-product {
+    border: 1px solid #ffffff;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding-top: 4vw;
+    padding-left: 4vw;
+    margin-top: 10vw;
+  }
+  main .products .discription-product h2 {
+    margin-bottom: -0.5vw !important;
+  }
+  main .products .discription-product .estimation {
+    flex-direction: column;
+    margin-bottom: 1vw;
+  }
+  main .products .discription-product .estimation .ratings .stars img:nth-child(1) {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-top: 0.3rem;
+  }
+  main .products .discription-product .estimation .ratings .stars img:nth-child(2) {
+    display: none;
+  }
+  main .products .discription-product .estimation .ratings .stars img:nth-child(3) {
+    display: none;
+  }
+  main .products .discription-product .estimation .ratings .stars img:nth-child(4) {
+    display: none;
+  }
+  main .products .discription-product .estimation .ratings .stars img:nth-child(5) {
+    display: none;
+  }
+  main .products .discription-product .line-product {
+    display: none;
+  }
+  main .products .discription-product h5 {
+    font-size: 0.7rem !important;
+  }
+  main .products .discription-product .text-discription {
+    width: 90vw;
+    margin-bottom: 0.5vh !important;
+    line-height: 3vw !important;
+  }
+  main .products .discription-product .size-selection .size-button {
+    width: 1rem;
+    height: 1rem;
+  }
+  main .products .discription-product .cart-controls {
+    margin-top: 2vw !important;
+  }
+  main .products .discription-product .cart-controls .quantity #decrease, main .products .discription-product .cart-controls .quantity #increase {
+    height: 4.2vw;
+  }
+  main .products .discription-product .cart-controls .quantity #decrease .line2, main .products .discription-product .cart-controls .quantity #increase .line2 {
+    width: 0.4vw;
+    border: 1px solid #FFFFFF;
+  }
+  main .products .discription-product .cart-controls .buttons .favorite {
+    padding-left: 0.75vw !important;
+  }
+  main .line {
+    gap: 0;
+    justify-content: space-around;
+  }
+  main .line .product:nth-child(4) {
+    display: none;
+  }
+  main .line .product:nth-child(5) {
+    display: none;
+  }
+  main .circles {
+    margin-top: 1rem;
+  }
+
+  footer {
+    margin: 44px 0 0 0 !important;
+  }
+  footer .plantshops {
+    flex-direction: column;
+  }
+  footer .plantshops .plantshops-item {
+    flex-direction: column;
+  }
+  footer .plantshops .plantshops-item-care img {
+    display: none;
+  }
+  footer .plantshops .plantshops-item .plantshops-watering img {
+    display: none;
+  }
+  footer .plantshops .plantshops-item .plantshops-email img {
+    display: none;
+  }
+  footer .line4 {
+    display: block;
+  }
+  footer .greeneshop {
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+  footer .navigation {
+    flex-direction: column;
+  }
+  footer .navigation .information {
+    flex-direction: column;
+    gap: 1vw;
+  }
+  footer .navigation .information .account-steps {
+    display: none;
+  }
+  footer .navigation .information .help {
+    margin-left: 0;
+  }
+  footer .navigation .information .help-steps {
+    display: none;
+  }
+  footer .navigation .information .categories {
+    margin-left: 0;
+  }
+  footer .navigation .information .categories-steps {
+    display: none;
+  }
+  footer .acepted-payment-methods {
+    margin-left: 0;
+  }
+}
+@media (max-width: 900px) {
+  .header-line {
+    width: 91.1vw;
+    margin: 1.12vw 0 0 4.36vw;
+  }
+  .header-container {
+    gap: 15.5vw;
+    margin: 1.8vw 4.26vw 0 4.36vw;
+  }
+  .header-container .logo-foto {
+    width: 3vw;
+  }
+  .header-container .logo-text {
+    width: 9vw;
+  }
+  .header-container .menu-item a {
+    font-size: 0.7rem;
+  }
+  .header-container .menu-list {
+    gap: 3.8vw;
+  }
+  .header-container-icon1 {
+    width: 0.7rem;
+  }
+  .header-container-icon2 {
+    width: 1.1rem;
+  }
+  .header-container__buttons {
+    font-size: 0.7rem;
+  }
+
+  main .page {
+    margin-left: 4.36vw;
+  }
+  main .page .home {
+    font-size: 0.7rem;
+  }
+  main .page span {
+    font-size: 0.7rem;
+  }
+  main .page .shop {
+    font-size: 0.7rem;
+  }
+  main .products {
+    margin: 2.9vw 4.26vw 0 4.36vw;
+  }
+  main .products .product-imege {
+    height: 35vw;
+  }
+  main .products .product-imege .main-image {
+    height: 35vw;
+  }
+  main .products .discription-product h2 {
+    font-size: 1rem;
+    margin-bottom: 0.2vw;
+  }
+  main .products .discription-product .estimation .price {
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+  main .products .discription-product .estimation .ratings p {
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+  }
+  main .products .discription-product h5 {
+    font-size: 0.8rem;
+  }
+  main .products .discription-product .text-discription {
+    font-size: 0.6rem;
+    margin-bottom: 2vh;
+  }
+  main .products .discription-product .size-selection {
+    flex-direction: row;
+  }
+  main .products .discription-product .size-selection span {
+    font-size: 0.79rem;
+  }
+  main .products .discription-product .size-selection .size-button {
+    font-size: 0.6rem;
+  }
+  main .products .discription-product .cart-controls {
+    margin-top: 2vh;
+  }
+  main .products .discription-product .cart-controls .quantity #decrease, main .products .discription-product .cart-controls .quantity #increase {
+    margin-top: 0.1rem;
+  }
+  main .products .discription-product .cart-controls .quantity .quantitys {
+    font-size: 1rem;
+  }
+  main .products .discription-product .cart-controls .buttons .buy-now, main .products .discription-product .cart-controls .buttons .add-to-cart {
+    font-size: 0.6rem;
+  }
+  main .products .discription-product .cart-controls .buttons .favorite {
+    padding-left: 0.7vw;
+  }
+  main .products .discription-product .parameters {
+    font-size: 0.6rem;
+    margin-top: 1rem;
+    gap: 0.2rem;
+  }
+  main .products .discription-product .shape {
+    margin-top: 0.4rem;
+  }
+  main .products .discription-product .shape p {
+    font-size: 0.6rem;
+  }
+  main .products .discription-product .shape .message {
+    margin-top: 0;
+  }
+  main .products .discription-product .shape .message img:nth-child(1) {
+    width: 0.3rem;
+  }
+  main .products .discription-product .shape .message img:nth-child(2) {
+    width: 0.6rem;
+  }
+  main .products .discription-product .shape .message img:nth-child(3) {
+    width: 0.6rem;
+  }
+  main .products .discription-product .shape .message img:nth-child(4) {
+    width: 0.6rem;
+  }
+  main .products .discription-product .line-product {
+    width: 47.8vw;
+  }
+  main .descriotion {
+    margin: 6.1vw 4.26vw 0 4.36vw;
+  }
+  main .descriotion .text p {
+    width: 100%;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+  }
+  main .descriotion .text h2 {
+    font-size: 0.7rem;
+  }
+  main .descriotion .product {
+    font-size: 0.5rem;
+    letter-spacing: -0.1px;
+  }
+  main .descriotion .product .title2 {
+    letter-spacing: -0.3px;
+  }
+  main .descriotion .line {
+    width: 91.1vw;
+  }
+  main .releted {
+    margin: 8.56vw 4.26vw 0 4.36vw;
+  }
+  main .releted h2 {
+    font-size: 0.8rem;
+  }
+  main .releted .line {
+    width: 91.1vw;
+  }
+  main .line {
+    margin: 2.9vw 4.26vw 0 4.36vw;
+    gap: 3rem;
+    justify-content: center;
+  }
+  main .line .product:nth-child(5) {
+    display: none;
+  }
+  main .line .product-info h3 {
+    font-size: 0.6rem;
+  }
+  main .line .product-info p {
+    font-size: 0.6rem;
+  }
+
+  footer {
+    margin: 128px 4.26vw 0 4.26vw;
+  }
+  footer .plantshops-item {
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 13rem;
+  }
+  footer .plantshops-item .line {
+    display: none;
+  }
+  footer .plantshops-item-care img {
+    display: none;
+  }
+  footer .plantshops-item-care-subtitle {
+    display: none;
+  }
+  footer .plantshops-item-care-title {
+    font-size: 0.8rem;
+  }
+  footer .plantshops-watering {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  footer .plantshops-watering img {
+    display: none;
+  }
+  footer .plantshops-watering-subtitle {
+    display: none;
+  }
+  footer .plantshops-watering-title {
+    font-size: 0.8rem;
+  }
+  footer .plantshops-email {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  footer .plantshops-email img {
+    display: none;
+  }
+  footer .plantshops-email-subtitle {
+    display: none;
+  }
+  footer .plantshops-email-title {
+    font-size: 0.8rem;
+  }
+  footer .newsletter-title {
+    font-size: 0.8rem;
+  }
+  footer .newsletter-email-input {
+    flex-grow: 0.5;
+  }
+  footer .newsletter-email-submit {
+    font-size: 0.9rem;
+  }
+  footer .newsletter-description {
+    font-size: 0.65rem;
+  }
+  footer .greeneshop {
+    gap: 3rem;
+    padding-right: 0.9rem;
+  }
+  footer .greeneshop .logo {
+    display: none;
+  }
+  footer .greeneshop .location p {
+    font-size: 0.7rem;
+  }
+  footer .greeneshop .email p {
+    font-size: 0.7rem;
+  }
+  footer .greeneshop .email .nomber p {
+    font-size: 0.7rem;
+  }
+  footer .navigation {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  footer .navigation .information {
+    gap: 3rem;
+    justify-content: space-between;
+  }
+  footer .navigation .information .account .toggle, footer .navigation .information .help .toggle, footer .navigation .information .categories .toggle {
+    font-size: 1rem;
+  }
+  footer .navigation .information .account-steps li, footer .navigation .information .help-steps li, footer .navigation .information .categories-steps li {
+    font-size: 0.8rem;
+  }
+  footer .navigation .acepted-payment-methods {
+    margin-left: 0;
+  }
+  footer .navigation .acepted-payment-methods .media, footer .navigation .acepted-payment-methods .pay {
+    flex-direction: row;
+  }
+  footer .navigation .acepted-payment-methods .media h2, footer .navigation .acepted-payment-methods .pay h2 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1111px) {
+  footer .navigation {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  footer .navigation .information {
+    gap: 3rem;
+    justify-content: space-between;
+  }
+  footer .navigation .information .account .toggle, footer .navigation .information .help .toggle, footer .navigation .information .categories .toggle {
+    font-size: 1rem;
+  }
+  footer .navigation .information .account-steps li, footer .navigation .information .help-steps li, footer .navigation .information .categories-steps li {
+    font-size: 0.8rem;
+  }
+  footer .navigation .acepted-payment-methods {
+    margin-left: 0;
+  }
+  footer .navigation .acepted-payment-methods .media, footer .navigation .acepted-payment-methods .pay {
+    flex-direction: row;
+  }
+  footer .navigation .acepted-payment-methods .media h2, footer .navigation .acepted-payment-methods .pay h2 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1278px) {
+  footer .plantshops {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1240px) {
+  footer .plantshops {
+    flex-wrap: wrap;
+  }
+}

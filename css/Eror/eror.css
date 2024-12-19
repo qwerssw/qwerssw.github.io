@@ -1,0 +1,117 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: A;
+}
+
+@font-face {
+  font-family: A;
+  src: url(../../шрифты/font/CeraPro-Regular.woff);
+}
+body {
+  background-color: #c5d9bb;
+}
+body .container {
+  display: flex;
+  background-color: #f1ffeb;
+  width: 74%;
+  border: 4px solid #a5b59c;
+  border-radius: 4rem;
+  margin: 4% 10%;
+  padding-left: 7vw;
+}
+body .container img {
+  width: 40%;
+}
+body .container .text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+body .container .text h1 {
+  font-size: 9em;
+  color: #4f584a;
+}
+body .container .text .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+body .container .text .texts .one {
+  font-size: 2em;
+  color: #4f584a;
+}
+body .container .text .texts .two {
+  font-size: 1.1rem;
+  color: #4f584a;
+}
+body .container .text .button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4f584a;
+  font-weight: 600;
+  margin-top: 1vw;
+  gap: 0.5vw;
+  padding: 8px 12px;
+  width: 8vw;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: 1rem;
+}
+body .container .text .button img {
+  width: 2vw;
+  transition: transform 0.2s ease;
+}
+body .container .text .button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+body .container .text .button:active img {
+  transform: translateX(-5px);
+}
+
+@media (max-width: 768px) {
+  body .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw 0;
+  }
+  body .container img {
+    display: none;
+  }
+  body .container .text {
+    align-items: center;
+  }
+  body .container .text h1 {
+    font-size: 5em;
+  }
+  body .container .text .texts .one {
+    font-size: 1.5em;
+  }
+  body .container .text .texts .two {
+    font-size: 1rem;
+  }
+  body .container .text .button {
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    width: 11vw;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 4em;
+  }
+  .one {
+    font-size: 1.2em;
+  }
+  .two {
+    font-size: 0.9rem;
+  }
+  .button {
+    width: 80%;
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=eror.css.map */

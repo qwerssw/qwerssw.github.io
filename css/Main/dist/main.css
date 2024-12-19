@@ -1,0 +1,1351 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cera Pro";
+}
+
+.header-container {
+  margin: 1.8vw 8.26vw 0 8.36vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.38vw;
+}
+.header-container .logo-foto {
+  width: 2.38vw;
+}
+.header-container .logo-text {
+  width: 7.6vw;
+}
+.header-container .menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 3.52vw;
+  display: flex;
+}
+.header-container .menu-item {
+  text-align: left;
+}
+.header-container .menu-item a {
+  text-decoration: none;
+  color: #3D3D3D;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.header-container .menu a:hover {
+  font-weight: 700;
+}
+.header-container__icons {
+  display: flex;
+  gap: 2.15vw;
+  margin-left: 2.22vw;
+}
+.header-container-icon1 {
+  width: 1.38vw;
+}
+.header-container-icon2 {
+  width: 2vw;
+}
+.header a {
+  text-decoration: none;
+}
+.header a .buttons {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.48vw 1.18vw 0.55vw;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  gap: 0.27vw;
+  align-items: center;
+}
+.header a .buttons img {
+  width: 1.38vw;
+}
+.header-line {
+  border: 0.3px solid #46A35880;
+  width: 83.1vw;
+  margin: 1.12vw 0 0 8.36vw;
+}
+
+.main_baner {
+  background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+  display: flex;
+  gap: 8.1vw;
+  margin: 0.82vw 8.26vw 0 8.26vw;
+}
+.main-title {
+  font-size: 0.97vw;
+  font-weight: 500;
+  color: #3D3D3D;
+  text-transform: uppercase;
+  margin-bottom: 0.28vw;
+  letter-spacing: 0.1vw;
+}
+.main-subtitle {
+  color: #3D3D3D;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 4.86vw;
+  line-height: 4.86vw;
+  margin-bottom: 0.68vw;
+  margin-left: -0.15vw;
+}
+.main-subtitle span {
+  color: #4CAF50;
+}
+.main-basictext {
+  color: #727272;
+  font-weight: 400;
+  font-size: 0.97vw;
+  line-height: 1.6vw;
+}
+.main a {
+  text-decoration: none;
+}
+.main a .button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.76vw 1.87vw 0.62vw 1.8vw;
+  font-size: 1.11vw;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 9.7vw;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  margin-top: 4.54vw;
+  margin-left: 3.08vw;
+}
+.main-image {
+  display: inline-block;
+  position: relative;
+}
+.main-flowers {
+  width: 100%;
+  height: auto;
+}
+.main .basic {
+  margin: 2.7vw 8.26vw 0 8.26vw;
+  display: flex;
+  padding-bottom: 5.575rem;
+  justify-content: space-between;
+  gap: 1%;
+}
+.main .basic .sort .filter {
+  background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+  padding: 1.1vw 1.7rem 2.45rem 1.3vw;
+}
+.main .basic .sort .filter .burger-menu .burger-icon h4 {
+  display: none;
+}
+.main .basic .sort .filter .burger-menu .menu h2 {
+  font-size: 1rem;
+  letter-spacing: 0.07vw;
+  margin-bottom: 0.8vw;
+  font-weight: 700;
+  color: #3D3D3D;
+}
+.main .basic .sort .filter .burger-menu .menu .price-range {
+  margin-left: 0.63rem;
+}
+.main .basic .sort .filter .burger-menu .menu .price-text {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #3D3D3D;
+  margin: 0.5rem 0 1vw 0.83rem;
+}
+.main .basic .sort .filter .burger-menu .menu .price-text span {
+  font-weight: 700;
+  color: #4CAF50;
+}
+.main .basic .sort .filter .burger-menu .menu a .price-filter-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.56rem 1.74rem 0.49rem 1.81rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-left: 0.83rem;
+}
+.main .basic .sort .filter-categories {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #3D3D3D;
+}
+.main .basic .sort .filter .plan-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4vw;
+  margin: 1vw 0 3vw 0.83vw;
+}
+.main .basic .sort .filter .plan-categories .text {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #3D3D3D;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: -0.02;
+}
+.main .basic .sort .filter .plan-categories .text:hover {
+  font-weight: 700;
+  color: #4CAF50;
+}
+.main .basic .sort .filter .size-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 3vw;
+  margin-bottom: 0.5rem;
+}
+.main .basic .sort .filter .size-block .size-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #3D3D3D;
+}
+.main .basic .sort .filter .size-block .size-items {
+  margin-left: 0.78rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.main .basic .sort .filter .size-block .size-items .size-item {
+  display: flex;
+  justify-content: space-between;
+  color: #3D3D3D;
+}
+.main .basic .sort .filter .size-block .size-items .size-item:hover {
+  color: #4CAF50;
+  font-weight: 700;
+}
+.main .basic .sort .supersalebunner {
+  width: 100%;
+}
+.main .basic .product-listing {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6vw;
+}
+.main .basic .product-listing .sortby {
+  display: flex;
+  justify-content: space-between;
+}
+.main .basic .product-listing .sortby .options {
+  display: flex;
+  gap: 2.59vw;
+}
+.main .basic .product-listing .sortby .options h3:nth-child(2) {
+  margin-right: 0.3vw;
+}
+.main .basic .product-listing .sortby .options > * {
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: #3D3D3D;
+}
+.main .basic .product-listing .sortby .dropdown > * {
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: #3D3D3D;
+}
+.main .basic .product-listing .sortby .dropdown {
+  display: flex;
+  gap: 0.5vw;
+}
+.main .basic .product-listing .sortby .dropdown img {
+  width: 1.11vw;
+  aspect-ratio: 1/1;
+  margin-top: 0.35vw;
+}
+.main .basic .product-listing .sortby .dropdown h3:nth-child(2) {
+  margin-right: 0.2vw;
+}
+.main .basic .product-listing .home-plans {
+  display: flex;
+  gap: 6.16vh;
+  flex-direction: column;
+}
+.main .basic .product-listing .home-plans .line {
+  display: flex;
+  gap: 2.29vw;
+}
+.main .basic .product-listing .home-plans .line a {
+  text-decoration: none;
+  color: #3D3D3D;
+}
+.main .basic .product-listing .home-plans .line a .product-image {
+  background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+  width: 17.9vw;
+  height: 20.8vw;
+}
+.main .basic .product-listing .home-plans .line a .product-image img {
+  width: 17.36vw;
+  margin: 2.15vw 0.2vw 0;
+}
+.main .basic .product-listing .home-plans .line a .product-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6VW;
+}
+.main .basic .product-listing .home-plans .line a .product-name {
+  font-weight: 400;
+  font-size: 1.11vw;
+}
+.main .basic .product-listing .home-plans .line a .product-price {
+  font-weight: 700;
+  font-size: 1.25vw;
+  color: #4CAF50;
+}
+.main .pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin: 0 8.26vw 0 0;
+}
+.main .pagination-item {
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 9px 12px 10px 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .pagination span {
+  padding: 9px 8px 8px 8px;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .pagination-item:hover {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-color: #4CAF50;
+}
+.main .plant-collection-full {
+  display: flex;
+  margin: 8.2rem 8.26vw 0 8.26vw;
+  gap: 1.94vw;
+  width: 90%;
+}
+.main .plant-collection-full .plant-collection {
+  width: 45.5%;
+  display: flex;
+}
+.main .plant-collection-full .plant-collection .plant-background {
+  position: relative;
+  display: flex;
+  background-color: #FBFBFB;
+  background-image: url("../../Img/bag.png");
+  background-size: cover;
+  /* Заполняет элемент изображением */
+  background-position: center;
+  /* Центрирует изображение */
+  background-repeat: no-repeat;
+  /* Не повторяет изображение */
+  width: 100%;
+  /* Ширина элемента */
+  height: 250px;
+  /* Высота элемента */
+}
+.main .plant-collection-full .plant-collection .plant-background .plant-image {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  margin-top: -4vw;
+}
+.main .plant-collection-full .plant-collection .plant-background .hero-content {
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  gap: 0.9vw;
+  position: absolute;
+  right: 32px;
+  bottom: 49px;
+}
+.main .plant-collection-full .plant-collection .plant-background .hero-title {
+  font-size: 1.25vw;
+  font-weight: 900;
+  line-height: 1.6vw;
+  color: #3D3D3D;
+}
+.main .plant-collection-full .plant-collection .plant-background .hero-description {
+  font-size: 0.97vw;
+  font-weight: 400;
+  line-height: 1.6vw;
+  color: #727272;
+}
+.main .plant-collection-full .plant-collection .plant-background .cta-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.67vw 1.85vw;
+  gap: 5px;
+  font-size: 0.97vw;
+  cursor: pointer;
+  border-radius: 0.34vw;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-left: 11.9vw;
+  text-decoration: none;
+  margin-top: 0.4vw;
+}
+.main .blog {
+  margin-top: 8.25rem;
+}
+.main .blog-textsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4vw;
+}
+.main .blog-textsection-post {
+  font-size: 2vw;
+  font-weight: 700;
+  color: #3D3D3D;
+}
+.main .blog-textsection-subtitle {
+  font-size: 0.97vw;
+  font-weight: 400;
+  line-height: 1.6vw;
+  color: #727272;
+}
+.main .blog .gardening {
+  display: flex;
+  height: fit-content;
+  gap: 2.97vw;
+  margin: 2.2vw 8.26vw 0 8.26vw;
+}
+.main .blog .gardening .content-img {
+  width: 100%;
+}
+.main .blog .gardening .content-inf {
+  background-color: #FBFBFB;
+  padding: 0 0.764% 0.833% 1.042%;
+  display: flex;
+  flex-direction: column;
+  gap: 5.4px;
+}
+.main .blog .gardening .content-inf-date {
+  font-weight: 500;
+  font-size: 0.875em;
+  line-height: 1.143em;
+  color: #4CAF50;
+}
+.main .blog .gardening .content-inf-title {
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.3em;
+  color: #3D3D3D;
+}
+.main .blog .gardening .content-inf-description {
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: #727272;
+}
+.main .blog .gardening .content-inf .readmore {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.main .blog .gardening .content-inf .readmore-cta {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: #3D3D3D;
+  text-decoration: none;
+}
+.main .blog .gardening .content-inf .readmore .arrow {
+  margin-top: 0.625rem;
+}
+
+footer {
+  margin: 128px 8.26vw 0 8.26vw;
+}
+footer .plantshops {
+  display: flex;
+  gap: 1.31rem;
+  background-color: #FBFBFB;
+}
+footer .plantshops-item {
+  display: flex;
+  gap: 1.63rem;
+  justify-content: space-around;
+  padding: 1.9% 1.74% 1.97% 2%;
+}
+footer .plantshops-item-care-title {
+  font-size: 1.18vw;
+  line-height: 1rem;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-top: 11px;
+}
+footer .plantshops-item-care-subtitle {
+  margin-top: 9px;
+  font-size: 0.97vw;
+  line-height: 1.375rem;
+  font-weight: 400;
+  width: 12.75rem;
+}
+footer .plantshops .line {
+  width: 0.69444%;
+  background-color: #46A3581A;
+}
+footer .plantshops-watering {
+  margin: 7px 0 0 10px;
+}
+footer .plantshops-watering-title {
+  font-size: 1.18vw;
+  line-height: 1rem;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-top: 9px;
+  letter-spacing: -0.2px;
+}
+footer .plantshops-watering-subtitle {
+  margin-top: 0.97vw;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  width: 12.75rem;
+}
+footer .plantshops-email {
+  margin: 7px 0 0 10px;
+}
+footer .plantshops-email-title {
+  font-size: 1.18vw;
+  line-height: 1rem;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-top: 9px;
+  letter-spacing: -0.2px;
+}
+footer .plantshops-email-subtitle {
+  margin-top: 0.97vw;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  width: 12.75rem;
+}
+footer .newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 2.74% 2.2% 1.67% 1.6%;
+}
+footer .newsletter-title {
+  font-size: 1.25vw;
+  color: #3D3D3D;
+  font-weight: 800;
+  letter-spacing: -0.1px;
+}
+footer .newsletter-email-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+footer .newsletter-email-input {
+  flex-grow: 1;
+  padding: 0.74rem 0.8rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 0.25rem 0 0 0.25rem;
+  outline: none;
+}
+footer .newsletter-email-submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.51rem 1.5rem;
+  border: none;
+  border-radius: 0 0.25rem 0.25rem 0;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .newsletter-description {
+  font-size: 13px;
+  font-weight: 400;
+  color: #727272;
+  margin-top: 4px;
+  line-height: 22px;
+}
+footer .greeneshop {
+  background-color: #46A3581A;
+  display: flex;
+  gap: 76.4px;
+  align-items: center;
+  padding: 1.4rem 13.6rem 1.4rem 1.5rem;
+}
+footer .greeneshop .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.38vw;
+}
+footer .greeneshop .logo-foto {
+  width: 2.38vw;
+}
+footer .greeneshop .logo-text {
+  width: 7.6vw;
+}
+footer .greeneshop .location {
+  display: flex;
+  gap: 10px;
+  margin: 1px 0 0 11px;
+}
+footer .greeneshop .location p {
+  font-size: 0.875rem;
+  color: #3D3D3D;
+  line-height: 1.375rem;
+}
+footer .greeneshop .location img {
+  width: 20px;
+  height: 20px;
+  margin-top: 11px;
+}
+footer .greeneshop .email {
+  display: flex;
+  gap: 10px;
+  margin-left: -6px;
+}
+footer .greeneshop .email p {
+  font-size: 0.875rem;
+  color: #3D3D3D;
+  line-height: 1.375rem;
+}
+footer .greeneshop .email img {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+}
+footer .greeneshop .nomber {
+  display: flex;
+  gap: 7px;
+  margin-left: -2px;
+}
+footer .greeneshop .nomber p {
+  font-size: 0.875rem;
+  color: #3D3D3D;
+  line-height: 1.375rem;
+}
+footer .greeneshop .nomber img {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+}
+footer .navigation {
+  display: flex;
+  gap: 8.94rem;
+  background-color: #FBFBFB;
+  padding: 1.8rem 5.69rem 1.69rem 1.5rem;
+}
+footer .navigation .account {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+}
+footer .navigation .account h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .navigation .account p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 3px;
+}
+footer .navigation .help {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+  margin-left: 22px;
+}
+footer .navigation .help h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .navigation .help p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 3px;
+}
+footer .navigation .categories {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+  margin-left: -3px;
+}
+footer .navigation .categories h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .navigation .categories p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 3px;
+}
+footer .acepted-payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin-left: 1.8rem;
+}
+footer .acepted-payment-methods .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+}
+footer .acepted-payment-methods .media h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .acepted-payment-methods .media .medias {
+  display: flex;
+  gap: 0.52rem;
+}
+footer .acepted-payment-methods .pay {
+  display: flex;
+  flex-direction: column;
+  gap: 0.61rem;
+}
+footer .acepted-payment-methods .pay h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+@media (max-width: 474px) {
+  .header-container {
+    gap: 0;
+    /* Анимация для бургер-меню */
+  }
+  .header-container .menu {
+    position: relative;
+    margin-left: 40vw;
+  }
+  .header-container .burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 10px;
+    /* Отступ для удобства */
+  }
+  .header-container .line {
+    width: 15px;
+    height: 1.5px;
+    background-color: #3e7c4b;
+    margin: 1px 0;
+    transition: all 0.3s ease;
+  }
+  .header-container .menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 3.52vw;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  .header-container .menu-item {
+    text-align: left;
+  }
+  .header-container .menu-item a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 10px 15px;
+  }
+  .header-container .menu-list.show {
+    display: flex;
+  }
+  .header-container a:hover {
+    font-weight: 700;
+  }
+  .header-container .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .header-container .burger.active .line:nth-child(2) {
+    opacity: 0;
+    /* Скрываем среднюю линию */
+  }
+  .header-container .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  .header-container-icon1 {
+    width: 2rem;
+  }
+  .header-line {
+    margin: 1.12vw 0 0 0;
+    width: 100%;
+  }
+
+  .main_baner {
+    display: none;
+  }
+  .main .basic .sort .filter .burger-menu .burger-icon h4 {
+    font-size: 0.6rem !important;
+  }
+  .main .basic .product-listing .sortby .options > * {
+    font-size: 0.6rem !important;
+  }
+  .main .basic .product-listing .sortby .dropdown > * {
+    font-size: 0.6rem !important;
+  }
+  .main .basic .product-listing .home-plans {
+    gap: 5vw;
+  }
+  .main .basic .product-listing .home-plans .line {
+    justify-content: space-between;
+  }
+  .main .basic .product-listing .home-plans .line a .product-image {
+    width: 22.9vw;
+    height: 25.8vw;
+  }
+  .main .basic .product-listing .home-plans .line a .product-image img {
+    width: 20.36vw;
+  }
+  .main .basic .product-listing .home-plans .line a .product-name {
+    font-size: 0.6rem !important;
+  }
+  .main .basic .product-listing .home-plans .line a .product-price {
+    font-size: 0.5rem !important;
+  }
+  .main .plant-collection-full {
+    display: none;
+  }
+
+  footer {
+    margin: 44px 0 0 0 !important;
+  }
+  footer .plantshops {
+    flex-direction: column;
+  }
+  footer .plantshops .plantshops-item {
+    flex-direction: column;
+  }
+  footer .plantshops .plantshops-item-care img {
+    display: none;
+  }
+  footer .plantshops .plantshops-item .plantshops-watering img {
+    display: none;
+  }
+  footer .plantshops .plantshops-item .plantshops-email img {
+    display: none;
+  }
+  footer .line4 {
+    display: block;
+  }
+  footer .greeneshop {
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+  footer .navigation {
+    flex-direction: column;
+  }
+  footer .navigation .information {
+    flex-direction: column;
+    gap: 1vw;
+  }
+  footer .navigation .information .account-steps {
+    display: none;
+  }
+  footer .navigation .information .help {
+    margin-left: 0;
+  }
+  footer .navigation .information .help-steps {
+    display: none;
+  }
+  footer .navigation .information .categories {
+    margin-left: 0;
+  }
+  footer .navigation .information .categories-steps {
+    display: none;
+  }
+  footer .acepted-payment-methods {
+    margin-left: 0;
+  }
+}
+@media (max-width: 655px) {
+  footer .greeneshop {
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+}
+@media (max-width: 715px) {
+  .main .blog .gardening {
+    flex-direction: column;
+    margin-left: 27vw;
+  }
+  .main .blog .gardening .content-img {
+    width: 75%;
+  }
+  .main .blog .gardening .content-inf {
+    width: 75%;
+  }
+  .main .plant-collection-full {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .header-container {
+    margin: 1.8vw 8.26vw 0 8.36vw !important;
+  }
+  .header-container .menu-list {
+    gap: 3.8vw;
+  }
+  .header-container .menu-item a {
+    font-size: 0.7rem;
+  }
+  .header-container-icon1 {
+    width: 0.7rem;
+  }
+  .header-container-icon2 {
+    width: 1.1rem;
+  }
+  .header-container__buttons {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 925px) {
+  .header-container .menu-list {
+    gap: 3.8vw;
+  }
+  .header-container-icon1 {
+    width: 0.7rem;
+  }
+  .header-container-icon2 {
+    width: 1.1rem;
+  }
+
+  footer {
+    margin: 128px 4.26vw 0 4.26vw;
+  }
+  footer .plantshops-item {
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 13rem;
+  }
+  footer .plantshops-item .line {
+    display: none;
+  }
+  footer .plantshops-item-care img {
+    display: none;
+  }
+  footer .plantshops-item-care-subtitle {
+    display: none;
+  }
+  footer .plantshops-item-care-title {
+    font-size: 0.8rem;
+  }
+  footer .plantshops-watering {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  footer .plantshops-watering img {
+    display: none;
+  }
+  footer .plantshops-watering-subtitle {
+    display: none;
+  }
+  footer .plantshops-watering-title {
+    font-size: 0.8rem;
+  }
+  footer .plantshops-email {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  footer .plantshops-email img {
+    display: none;
+  }
+  footer .plantshops-email-subtitle {
+    display: none;
+  }
+  footer .plantshops-email-title {
+    font-size: 0.8rem;
+  }
+  footer .newsletter-title {
+    font-size: 0.8rem;
+  }
+  footer .newsletter-email-input {
+    flex-grow: 0.5;
+  }
+  footer .newsletter-email-submit {
+    font-size: 0.9rem;
+  }
+  footer .newsletter-description {
+    font-size: 0.65rem;
+  }
+  footer .greeneshop {
+    gap: 3rem;
+    padding-right: 0.9rem;
+  }
+  footer .greeneshop .logo {
+    display: none;
+  }
+  footer .greeneshop .location p {
+    font-size: 0.7rem;
+  }
+  footer .greeneshop .email p {
+    font-size: 0.7rem;
+  }
+  footer .greeneshop .email .nomber p {
+    font-size: 0.7rem;
+  }
+  footer .navigation {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  footer .navigation .information {
+    gap: 3rem;
+    justify-content: space-between;
+  }
+  footer .navigation .information .account .toggle, footer .navigation .information .help .toggle, footer .navigation .information .categories .toggle {
+    font-size: 1rem;
+  }
+  footer .navigation .information .account-steps li, footer .navigation .information .help-steps li, footer .navigation .information .categories-steps li {
+    font-size: 0.8rem;
+  }
+  footer .navigation .acepted-payment-methods {
+    margin-left: 0;
+  }
+  footer .navigation .acepted-payment-methods .media, footer .navigation .acepted-payment-methods .pay {
+    flex-direction: row;
+  }
+  footer .navigation .acepted-payment-methods .media h2, footer .navigation .acepted-payment-methods .pay h2 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1111px) {
+  footer .navigation {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  footer .navigation .information {
+    gap: 3rem;
+    justify-content: space-between;
+  }
+  footer .navigation .information .account .toggle, footer .navigation .information .help .toggle, footer .navigation .information .categories .toggle {
+    font-size: 1rem;
+  }
+  footer .navigation .information .account-steps li, footer .navigation .information .help-steps li, footer .navigation .information .categories-steps li {
+    font-size: 0.8rem;
+  }
+  footer .navigation .acepted-payment-methods {
+    margin-left: 0;
+  }
+  footer .navigation .acepted-payment-methods .media, footer .navigation .acepted-payment-methods .pay {
+    flex-direction: row;
+  }
+  footer .navigation .acepted-payment-methods .media h2, footer .navigation .acepted-payment-methods .pay h2 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1021px) {
+  .main-flowers {
+    width: 89%;
+  }
+  .main .basic {
+    flex-direction: column;
+    padding-bottom: 4vw;
+  }
+  .main .basic .sort .supersalebunner {
+    display: none;
+  }
+  .main .basic .sort .filter {
+    padding: 0;
+    background: none;
+  }
+  .main .basic .sort .filter .filter-categories {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #3D3D3D;
+  }
+  .main .basic .sort .filter .burger-menu {
+    position: relative;
+  }
+  .main .basic .sort .filter .burger-menu .burger-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .main .basic .sort .filter .burger-menu .burger-icon h4 {
+    display: block;
+    margin: 0;
+    color: #3D3D3D;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 2vw;
+  }
+  .main .basic .sort .filter .burger-menu .menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+  }
+  .main .basic .sort .filter .burger-menu .menu .plan-categories {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .basic .sort .filter .burger-menu .menu .text {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3D3D3D;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .basic .sort .filter .burger-menu .menu .text:hover {
+    font-weight: 700;
+    color: #4CAF50;
+  }
+  .main .basic .sort .filter .burger-menu .menu .renge-title {
+    margin-top: 10px;
+  }
+  .main .basic .sort .filter .burger-menu .menu .size-block {
+    margin-top: 10px;
+  }
+  .main .basic .sort .filter .burger-menu .menu.show {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .basic .sort .filter .line {
+    width: 15px;
+    height: 1.5px;
+    background-color: #3e7c4b;
+    margin: 1px 0;
+    transition: all 0.3s ease;
+  }
+  .main .basic .sort .filter .burger-menu.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .main .basic .sort .filter .burger-menu.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  .main .basic .sort .filter .burger-menu.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  .main .basic .product-listing .sortby .options > * {
+    font-size: 0.7rem;
+  }
+  .main .basic .product-listing .sortby .dropdown > * {
+    font-size: 0.7rem;
+  }
+  .main .basic .product-listing .home-plans {
+    gap: 5vw;
+  }
+  .main .basic .product-listing .home-plans .line {
+    justify-content: space-between;
+  }
+  .main .basic .product-listing .home-plans .line a .product-image {
+    width: 22.9vw;
+    height: 25.8vw;
+  }
+  .main .basic .product-listing .home-plans .line a .product-image img {
+    width: 20.36vw;
+  }
+  .main .basic .product-listing .home-plans .line a .product-name {
+    font-size: 0.8rem;
+  }
+  .main .basic .product-listing .home-plans .line a .product-price {
+    font-size: 0.7rem;
+  }
+  .main .pagination-item {
+    font-size: 0.7rem;
+    padding: 0.5vw 1.5vw;
+  }
+  .main .pagination span {
+    padding: 0.3vw;
+  }
+  .main .pagination span img {
+    width: 1vw;
+    height: 1vw;
+  }
+  .main .blog {
+    margin-top: 6rem;
+  }
+  .main .blog .gardening .content-inf-title {
+    font-size: 0.8rem;
+  }
+  .main .blog .gardening .content-inf-description {
+    font-size: 0.6rem;
+  }
+  .main .blog .gardening .content-inf .readmore:nth-child(4) {
+    margin-top: 1vw;
+  }
+  .main .blog-textsection-post {
+    font-size: 1rem;
+  }
+  .main .blog-textsection-subtitle {
+    font-size: 0.7rem;
+  }
+  .main .plant-collection-full .plant-collection .plant-background {
+    height: 131px;
+  }
+  .main .plant-collection-full .plant-collection .plant-background .hero-content {
+    bottom: 21px;
+  }
+  .main .plant-collection-full .plant-collection .plant-background .plant-image {
+    width: 48%;
+  }
+
+  footer {
+    margin: 128px 4.26vw 0 4.26vw;
+  }
+  footer .plantshops-item {
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 13rem;
+  }
+  footer .plantshops-item .line {
+    display: none;
+  }
+  footer .plantshops-item-care img {
+    display: none;
+  }
+  footer .plantshops-item-care-subtitle {
+    display: none;
+  }
+  footer .plantshops-item-care-title {
+    font-size: 0.8rem;
+  }
+  footer .plantshops-watering {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  footer .plantshops-watering img {
+    display: none;
+  }
+  footer .plantshops-watering-subtitle {
+    display: none;
+  }
+  footer .plantshops-watering-title {
+    font-size: 0.8rem;
+  }
+  footer .plantshops-email {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  footer .plantshops-email img {
+    display: none;
+  }
+  footer .plantshops-email-subtitle {
+    display: none;
+  }
+  footer .plantshops-email-title {
+    font-size: 0.8rem;
+  }
+  footer .newsletter-title {
+    font-size: 0.8rem;
+  }
+  footer .newsletter-email-input {
+    flex-grow: 0.5;
+  }
+  footer .newsletter-email-submit {
+    font-size: 0.9rem;
+  }
+  footer .newsletter-description {
+    font-size: 0.65rem;
+  }
+  footer .greeneshop {
+    gap: 3rem;
+    padding-right: 0.9rem;
+  }
+  footer .greeneshop .logo {
+    display: none;
+  }
+  footer .greeneshop .location p {
+    font-size: 0.7rem;
+  }
+  footer .greeneshop .email p {
+    font-size: 0.7rem;
+  }
+  footer .greeneshop .email .nomber p {
+    font-size: 0.7rem;
+  }
+  footer .navigation {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  footer .navigation .information {
+    gap: 3rem;
+    justify-content: space-between;
+  }
+  footer .navigation .information .account .toggle, footer .navigation .information .help .toggle, footer .navigation .information .categories .toggle {
+    font-size: 1rem;
+  }
+  footer .navigation .information .account-steps li, footer .navigation .information .help-steps li, footer .navigation .information .categories-steps li {
+    font-size: 0.8rem;
+  }
+  footer .navigation .acepted-payment-methods {
+    margin-left: 0;
+  }
+  footer .navigation .acepted-payment-methods .media, footer .navigation .acepted-payment-methods .pay {
+    flex-direction: row;
+  }
+  footer .navigation .acepted-payment-methods .media h2, footer .navigation .acepted-payment-methods .pay h2 {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1118px) {
+  .header-container .menu-list {
+    gap: 3.8vw;
+  }
+  .header-container-icon1 {
+    width: 0.7rem;
+  }
+  .header-container-icon2 {
+    width: 1.1rem;
+  }
+
+  .main_baner {
+    margin: 0.82vw 7.26vw 0 7.26vw;
+  }
+  .main .basic {
+    margin: 2.7vw 7.26vw 0 7.26vw;
+  }
+}
+@media (max-width: 1240px) {
+  footer .plantshops {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1278px) {
+  footer .plantshops {
+    flex-direction: column;
+  }
+}
