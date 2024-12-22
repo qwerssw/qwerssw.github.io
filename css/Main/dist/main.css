@@ -5,6 +5,14 @@
   font-family: "Cera Pro";
 }
 
+@font-face {
+  font-family: Cera Pro;
+  src: url(../../шрифты/font/CeraPro-Regular.woff);
+}
+@font-face {
+  font-family: Cera Pro Bold;
+  src: url(../../шрифты/font/CeraPro-Black.woff);
+}
 .header-container {
   margin: 1.8vw 8.26vw 0 8.36vw;
   display: flex;
@@ -53,10 +61,7 @@
 .header-container-icon2 {
   width: 2vw;
 }
-.header a {
-  text-decoration: none;
-}
-.header a .buttons {
+.header .buttons {
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -68,7 +73,11 @@
   gap: 0.27vw;
   align-items: center;
 }
-.header a .buttons img {
+.header .buttons a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header .buttons a img {
   width: 1.38vw;
 }
 .header-line {
@@ -99,9 +108,11 @@
   line-height: 4.86vw;
   margin-bottom: 0.68vw;
   margin-left: -0.15vw;
+  font-family: Cera Pro Bold;
 }
 .main-subtitle span {
   color: #4CAF50;
+  font-family: Cera Pro Bold;
 }
 .main-basictext {
   color: #727272;
@@ -109,10 +120,7 @@
   font-size: 0.97vw;
   line-height: 1.6vw;
 }
-.main a {
-  text-decoration: none;
-}
-.main a .button {
+.main .button {
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -125,6 +133,10 @@
   text-transform: uppercase;
   font-weight: 700;
   width: 9.7vw;
+}
+.main .button a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 .main-content {
   display: flex;
@@ -144,7 +156,7 @@
 .main .basic {
   margin: 2.7vw 8.26vw 0 8.26vw;
   display: flex;
-  padding-bottom: 5.575rem;
+  padding-bottom: 5.75vw;
   justify-content: space-between;
   gap: 1%;
 }
@@ -152,30 +164,30 @@
   background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
   padding: 1.1vw 1.7rem 2.45rem 1.3vw;
 }
-.main .basic .sort .filter .burger-menu .burger-icon h4 {
+.main .basic .sort .filter .burger-sort .burger-icon h4 {
   display: none;
 }
-.main .basic .sort .filter .burger-menu .menu h2 {
+.main .basic .sort .filter .burger-sort .sorts h2 {
   font-size: 1rem;
   letter-spacing: 0.07vw;
   margin-bottom: 0.8vw;
   font-weight: 700;
   color: #3D3D3D;
 }
-.main .basic .sort .filter .burger-menu .menu .price-range {
+.main .basic .sort .filter .burger-sort .sorts .price-range {
   margin-left: 0.63rem;
 }
-.main .basic .sort .filter .burger-menu .menu .price-text {
+.main .basic .sort .filter .burger-sort .sorts .price-text {
   font-weight: 400;
   font-size: 1rem;
   color: #3D3D3D;
   margin: 0.5rem 0 1vw 0.83rem;
 }
-.main .basic .sort .filter .burger-menu .menu .price-text span {
+.main .basic .sort .filter .burger-sort .sorts .price-text span {
   font-weight: 700;
   color: #4CAF50;
 }
-.main .basic .sort .filter .burger-menu .menu a .price-filter-button {
+.main .basic .sort .filter .burger-sort .sorts .price-filter-button {
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -187,6 +199,10 @@
   align-items: center;
   font-weight: 700;
   margin-left: 0.83rem;
+}
+.main .basic .sort .filter .burger-sort .sorts .price-filter-button a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 .main .basic .sort .filter-categories {
   font-weight: 700;
@@ -215,8 +231,8 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 3vw;
-  margin-bottom: 0.5rem;
+  margin-top: 3.2vw;
+  margin-bottom: -0.5vw;
 }
 .main .basic .sort .filter .size-block .size-title {
   font-weight: 700;
@@ -281,7 +297,7 @@
 }
 .main .basic .product-listing .home-plans {
   display: flex;
-  gap: 6.16vh;
+  gap: 7.5vh;
   flex-direction: column;
 }
 .main .basic .product-listing .home-plans .line {
@@ -321,13 +337,17 @@
   justify-content: flex-end;
   margin: 0 8.26vw 0 0;
 }
-.main .pagination-item {
+.main .pagination .pagination-item {
   border: 1px solid #E5E5E5;
   border-radius: 4px;
   padding: 9px 12px 10px 13px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.main .pagination .pagination-item a {
+  text-decoration: none;
+  color: #3D3D3D;
 }
 .main .pagination span {
   padding: 9px 8px 8px 8px;
@@ -359,21 +379,16 @@
   background-color: #FBFBFB;
   background-image: url("../../Img/bag.png");
   background-size: cover;
-  /* Заполняет элемент изображением */
   background-position: center;
-  /* Центрирует изображение */
   background-repeat: no-repeat;
-  /* Не повторяет изображение */
   width: 100%;
-  /* Ширина элемента */
   height: 250px;
-  /* Высота элемента */
 }
 .main .plant-collection-full .plant-collection .plant-background .plant-image {
   width: 45%;
   height: auto;
   position: absolute;
-  margin-top: -4vw;
+  margin-top: -3vw;
 }
 .main .plant-collection-full .plant-collection .plant-background .hero-content {
   width: 53%;
@@ -384,7 +399,7 @@
   gap: 0.9vw;
   position: absolute;
   right: 32px;
-  bottom: 49px;
+  bottom: 38px;
 }
 .main .plant-collection-full .plant-collection .plant-background .hero-title {
   font-size: 1.25vw;
@@ -415,7 +430,7 @@
   margin-top: 0.4vw;
 }
 .main .blog {
-  margin-top: 8.25rem;
+  margin-top: 9.5vw;
 }
 .main .blog-textsection {
   display: flex;
@@ -445,7 +460,7 @@
 }
 .main .blog .gardening .content-inf {
   background-color: #FBFBFB;
-  padding: 0 0.764% 0.833% 1.042%;
+  padding: 0.4vw 0.764% 0.833% 6.042%;
   display: flex;
   flex-direction: column;
   gap: 5.4px;
@@ -485,7 +500,7 @@
 }
 
 footer {
-  margin: 128px 8.26vw 0 8.26vw;
+  margin: 7.3vw 8.26vw 0 8.26vw;
 }
 footer .plantshops {
   display: flex;
@@ -499,15 +514,15 @@ footer .plantshops-item {
   padding: 1.9% 1.74% 1.97% 2%;
 }
 footer .plantshops-item-care-title {
-  font-size: 1.18vw;
-  line-height: 1rem;
+  font-size: 1rem;
+  line-height: 1vw;
   font-weight: 700;
   color: #3D3D3D;
   margin-top: 11px;
 }
 footer .plantshops-item-care-subtitle {
   margin-top: 9px;
-  font-size: 0.97vw;
+  font-size: 0.88rem;
   line-height: 1.375rem;
   font-weight: 400;
   width: 12.75rem;
@@ -528,7 +543,7 @@ footer .plantshops-watering-title {
   letter-spacing: -0.2px;
 }
 footer .plantshops-watering-subtitle {
-  margin-top: 0.97vw;
+  margin-top: 0.7vw;
   font-size: 0.875rem;
   line-height: 1.375rem;
   font-weight: 400;
@@ -546,7 +561,7 @@ footer .plantshops-email-title {
   letter-spacing: -0.2px;
 }
 footer .plantshops-email-subtitle {
-  margin-top: 0.97vw;
+  margin-top: 0.7vw;
   font-size: 0.875rem;
   line-height: 1.375rem;
   font-weight: 400;
@@ -600,7 +615,7 @@ footer .greeneshop {
   display: flex;
   gap: 76.4px;
   align-items: center;
-  padding: 1.4rem 13.6rem 1.4rem 1.5rem;
+  padding: 1.3rem 13.6rem 1.4rem 1.5rem;
 }
 footer .greeneshop .logo {
   display: flex;
@@ -664,54 +679,79 @@ footer .navigation {
   background-color: #FBFBFB;
   padding: 1.8rem 5.69rem 1.69rem 1.5rem;
 }
-footer .navigation .account {
+footer .navigation .information {
+  display: flex;
+  gap: 9.1rem;
+}
+footer .navigation .information .account {
   display: flex;
   flex-direction: column;
   gap: 0.54rem;
 }
-footer .navigation .account h2 {
+footer .navigation .information .account .toggle {
   font-size: 1.125rem;
   font-weight: 700;
 }
-footer .navigation .account p {
+footer .navigation .information .account-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+  overflow: hidden;
+  /* Скрываем переполнение */
+  transition: max-height 0.2s ease-out;
+}
+footer .navigation .information .account-steps li {
   font-size: 0.875rem;
   font-weight: 400;
   margin-top: 3px;
+  list-style-type: none;
 }
-footer .navigation .help {
+footer .navigation .information .help {
   display: flex;
   flex-direction: column;
   gap: 0.54rem;
   margin-left: 22px;
 }
-footer .navigation .help h2 {
+footer .navigation .information .help .toggle {
   font-size: 1.125rem;
   font-weight: 700;
 }
-footer .navigation .help p {
+footer .navigation .information .help-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+}
+footer .navigation .information .help-steps li {
   font-size: 0.875rem;
   font-weight: 400;
   margin-top: 3px;
+  list-style-type: none;
 }
-footer .navigation .categories {
+footer .navigation .information .categories {
   display: flex;
   flex-direction: column;
   gap: 0.54rem;
   margin-left: -3px;
 }
-footer .navigation .categories h2 {
+footer .navigation .information .categories .toggle {
   font-size: 1.125rem;
   font-weight: 700;
 }
-footer .navigation .categories p {
+footer .navigation .information .categories-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.54rem;
+}
+footer .navigation .information .categories-steps li {
   font-size: 0.875rem;
   font-weight: 400;
   margin-top: 3px;
+  list-style-type: none;
 }
 footer .acepted-payment-methods {
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 1.6rem;
   margin-left: 1.8rem;
 }
 footer .acepted-payment-methods .media {
@@ -740,11 +780,16 @@ footer .acepted-payment-methods .pay h2 {
 @media (max-width: 474px) {
   .header-container {
     gap: 0;
-    /* Анимация для бургер-меню */
   }
   .header-container .menu {
     position: relative;
-    margin-left: 40vw;
+    margin-left: 31vw;
+  }
+  .header-container .logo-foto {
+    width: 4.36vw;
+  }
+  .header-container .logo-text {
+    width: 12.6vw;
   }
   .header-container .burger {
     display: flex;
@@ -772,7 +817,6 @@ footer .acepted-payment-methods .pay h2 {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 10px;
   }
   .header-container .menu-item {
     text-align: left;
@@ -787,6 +831,7 @@ footer .acepted-payment-methods .pay h2 {
   }
   .header-container .menu-list.show {
     display: flex;
+    width: 6rem;
   }
   .header-container a:hover {
     font-weight: 700;
@@ -808,12 +853,35 @@ footer .acepted-payment-methods .pay h2 {
     margin: 1.12vw 0 0 0;
     width: 100%;
   }
+  .header a .buttons {
+    font-size: 0.8rem;
+  }
+  .header a .buttons img {
+    width: 3.38vw;
+  }
 
   .main_baner {
     display: none;
   }
-  .main .basic .sort .filter .burger-menu .burger-icon h4 {
-    font-size: 0.6rem !important;
+  .main .blog-textsection-subtitle {
+    text-align: center;
+    margin: 0 0.4vw;
+    line-height: 1rem;
+  }
+  .main .basic .sort .filter .burger-sort .sorts h2 {
+    font-size: 0.8rem;
+  }
+  .main .basic .sort .filter .burger-sort .sorts .text {
+    font-size: 0.7rem;
+  }
+  .main .basic .sort .filter .burger-sort .sorts .price-range {
+    width: 27vw;
+  }
+  .main .basic .sort .filter .burger-sort .sorts .price-text {
+    font-size: 0.7rem;
+  }
+  .main .basic .sort .filter .size-block .size-items .size-item p {
+    font-size: 0.7rem;
   }
   .main .basic .product-listing .sortby .options > * {
     font-size: 0.6rem !important;
@@ -896,6 +964,13 @@ footer .acepted-payment-methods .pay h2 {
   }
 }
 @media (max-width: 655px) {
+  .main .blog-textsection-post {
+    font-size: 1rem;
+  }
+  .main .blog-textsection-subtitle {
+    font-size: 0.8rem;
+  }
+
   footer .greeneshop {
     flex-direction: column;
     gap: 2rem !important;
@@ -910,7 +985,7 @@ footer .acepted-payment-methods .pay h2 {
     width: 75%;
   }
   .main .blog .gardening .content-inf {
-    width: 75%;
+    width: 68.5%;
   }
   .main .plant-collection-full {
     display: none;
@@ -1078,28 +1153,11 @@ footer .acepted-payment-methods .pay h2 {
     flex-direction: column;
     padding-bottom: 4vw;
   }
-  .main .basic .sort .supersalebunner {
-    display: none;
-  }
   .main .basic .sort .filter {
-    padding: 0;
     background: none;
+    padding: 0;
   }
-  .main .basic .sort .filter .filter-categories {
-    font-weight: 700;
-    font-size: 1.25rem;
-    color: #3D3D3D;
-  }
-  .main .basic .sort .filter .burger-menu {
-    position: relative;
-  }
-  .main .basic .sort .filter .burger-menu .burger-icon {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-  .main .basic .sort .filter .burger-menu .burger-icon h4 {
+  .main .basic .sort .filter .burger-sort .burger-icon h4 {
     display: block;
     margin: 0;
     color: #3D3D3D;
@@ -1107,7 +1165,7 @@ footer .acepted-payment-methods .pay h2 {
     font-weight: 500;
     margin-bottom: 2vw;
   }
-  .main .basic .sort .filter .burger-menu .menu {
+  .main .basic .sort .filter .burger-sort .sorts {
     display: none;
     position: absolute;
     top: 50px;
@@ -1118,108 +1176,154 @@ footer .acepted-payment-methods .pay h2 {
     padding: 10px;
     z-index: 1000;
   }
-  .main .basic .sort .filter .burger-menu .menu .plan-categories {
+  .main .basic .supersalebunner {
+    display: none;
+  }
+  .main .basic .filter {
+    padding: 0;
+    background: none;
+  }
+  .main .basic .filter .filter-categories {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #3D3D3D;
+  }
+  .main .basic .filter .burger-sort {
+    position: relative;
+  }
+  .main .basic .filter .burger-sort .burger-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .main .basic .filter .burger-sort .burger-icon h4 {
+    display: block;
+    margin: 0;
+    color: #3D3D3D;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 2vw;
+  }
+  .main .basic .filter .burger-sort .sorts {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+  }
+  .main .basic .filter .burger-sort .sorts .plan-categories {
     display: flex;
     flex-direction: column;
   }
-  .main .basic .sort .filter .burger-menu .menu .text {
+  .main .basic .filter .burger-sort .sorts .text {
     font-weight: 400;
     font-size: 1rem;
     color: #3D3D3D;
     display: flex;
     justify-content: space-between;
   }
-  .main .basic .sort .filter .burger-menu .menu .text:hover {
+  .main .basic .filter .burger-sort .sorts .text:hover {
     font-weight: 700;
     color: #4CAF50;
   }
-  .main .basic .sort .filter .burger-menu .menu .renge-title {
+  .main .basic .filter .burger-sort .sorts .renge-title {
     margin-top: 10px;
   }
-  .main .basic .sort .filter .burger-menu .menu .size-block {
+  .main .basic .filter .burger-sort .sorts .size-block {
     margin-top: 10px;
   }
-  .main .basic .sort .filter .burger-menu .menu.show {
+  .main .basic .filter .burger-sort .sorts.show {
     display: flex;
     flex-direction: column;
   }
-  .main .basic .sort .filter .line {
+  .main .basic .filter .line {
     width: 15px;
     height: 1.5px;
     background-color: #3e7c4b;
     margin: 1px 0;
     transition: all 0.3s ease;
   }
-  .main .basic .sort .filter .burger-menu.active .line:nth-child(1) {
+  .main .basic .filter .burger-sort.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
   }
-  .main .basic .sort .filter .burger-menu.active .line:nth-child(2) {
+  .main .basic .filter .burger-sort.active .line:nth-child(2) {
     opacity: 0;
   }
-  .main .basic .sort .filter .burger-menu.active .line:nth-child(3) {
+  .main .basic .filter .burger-sort.active .line:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
-  .main .basic .product-listing .sortby .options > * {
+  .main .product-listing .sortby .options > * {
     font-size: 0.7rem;
   }
-  .main .basic .product-listing .sortby .dropdown > * {
+  .main .product-listing .sortby .dropdown > * {
     font-size: 0.7rem;
   }
-  .main .basic .product-listing .home-plans {
+  .main .product-listing .home-plans {
     gap: 5vw;
   }
-  .main .basic .product-listing .home-plans .line {
+  .main .product-listing .home-plans .line {
     justify-content: space-between;
   }
-  .main .basic .product-listing .home-plans .line a .product-image {
+  .main .product-listing .home-plans .line a .product-image {
     width: 22.9vw;
     height: 25.8vw;
   }
-  .main .basic .product-listing .home-plans .line a .product-image img {
+  .main .product-listing .home-plans .line a .product-image img {
     width: 20.36vw;
   }
-  .main .basic .product-listing .home-plans .line a .product-name {
+  .main .product-listing .home-plans .line a .product-name {
     font-size: 0.8rem;
   }
-  .main .basic .product-listing .home-plans .line a .product-price {
+  .main .product-listing .home-plans .line a .product-price {
     font-size: 0.7rem;
   }
-  .main .pagination-item {
+
+  .pagination-item {
     font-size: 0.7rem;
-    padding: 0.5vw 1.5vw;
+    padding: 0.5vw 1.5vw !important;
   }
-  .main .pagination span {
-    padding: 0.3vw;
+  .pagination span {
+    padding: 0 !important;
   }
-  .main .pagination span img {
-    width: 1vw;
-    height: 1vw;
+  .pagination span img {
+    width: 4vw;
+    height: 3vw;
   }
-  .main .blog {
+
+  .blog {
     margin-top: 6rem;
   }
-  .main .blog .gardening .content-inf-title {
+  .blog .gardening .content {
+    width: 100%;
+  }
+  .blog .gardening .content-inf-title {
     font-size: 0.8rem;
   }
-  .main .blog .gardening .content-inf-description {
+  .blog .gardening .content-inf-description {
     font-size: 0.6rem;
   }
-  .main .blog .gardening .content-inf .readmore:nth-child(4) {
+  .blog .gardening .content-inf .readmore:nth-child(4) {
     margin-top: 1vw;
   }
-  .main .blog-textsection-post {
+  .blog-textsection-post {
     font-size: 1rem;
   }
-  .main .blog-textsection-subtitle {
+  .blog-textsection-subtitle {
     font-size: 0.7rem;
   }
-  .main .plant-collection-full .plant-collection .plant-background {
+
+  .plant-collection-full .plant-collection .plant-background {
     height: 131px;
   }
-  .main .plant-collection-full .plant-collection .plant-background .hero-content {
+  .plant-collection-full .plant-collection .plant-background .hero-content {
     bottom: 21px;
   }
-  .main .plant-collection-full .plant-collection .plant-background .plant-image {
+  .plant-collection-full .plant-collection .plant-background .plant-image {
     width: 48%;
   }
 
@@ -1337,6 +1441,9 @@ footer .acepted-payment-methods .pay h2 {
   }
   .main .basic {
     margin: 2.7vw 7.26vw 0 7.26vw;
+  }
+  .main .plant-collection-full .plant-collection .plant-background .plant-image {
+    width: 54%;
   }
 }
 @media (max-width: 1240px) {

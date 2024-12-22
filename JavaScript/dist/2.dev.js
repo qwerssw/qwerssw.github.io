@@ -2,13 +2,12 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   var burger = document.getElementById('burger');
-  var menuList = document.getElementById('menuList'); // Проверка, что элементы найдены
+  var menuList = document.getElementById('menuList');
 
   if (burger && menuList) {
     burger.addEventListener('click', function () {
-      menuList.classList.toggle('show'); // Исправлено: classList
-
-      burger.classList.toggle('active'); // Исправлено: classList
+      menuList.classList.toggle('show');
+      burger.classList.toggle('active');
     });
   } else {
     console.error('Элементы не найдены на странице!');
@@ -18,33 +17,28 @@ document.addEventListener('DOMContentLoaded', function () {
 function toggleContent() {
   document.querySelectorAll('.toggle').forEach(function (footer) {
     footer.addEventListener('click', function () {
-      // Находим следующий элемент списка (ul)
-      var content = footer.nextElementSibling; // Проверяем текущее состояние отображения списка и переключаем его
+      var content = footer.nextElementSibling;
 
       if (content.style.display === "block") {
-        content.style.display = "none"; // Скрываем содержимое
+        content.style.display = "none";
       } else {
-        content.style.display = "block"; // Показываем содержимое
+        content.style.display = "block";
       }
     });
   });
-} // Функция для проверки ширины экрана
-
+}
 
 function checkWidth() {
   if (window.innerWidth <= 425) {
-    toggleContent(); // Включаем функциональность
+    toggleContent();
   } else {
-    // Удаляем обработчики событий, если ширина больше 425px
     document.querySelectorAll('.toggle').forEach(function (footer) {
       var content = footer.nextElementSibling;
       footer.removeEventListener('click', toggleContent);
-      content.style.display = ""; // Сбрасываем стиль отображения
+      content.style.display = "";
     });
   }
-} // Проверяем ширину при загрузке страницы
+}
 
-
-checkWidth(); // Проверяем ширину при изменении размера окна
-
+checkWidth();
 window.addEventListener('resize', checkWidth);

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenshop</title>
     <link rel="stylesheet" href="..//css/Main/main.css">
+    <link rel="shortcut icon" href="../Img/icon.png" type="image/x-icon">
 </head>
 <body> 
     <header class="header">
@@ -39,7 +40,7 @@
                <div class="header-container__icons">
                    <img src="..//Img/Search.svg" class="header-container-icon1" alt="Search">
                     <img src="..//Img/Busket.svg" class="header-container-icon2" alt="Basket">
-                   <a href="./Eror.html"><button class="buttons"> <img src="..//Img/Logout.svg" alt="login">Login</button></a> 
+                   <button class="buttons"> <img src="..//Img/Logout.svg" alt="login"><a href="./Eror.html">Login</a> </button>
                </div>
                </div>
                <div class="header-line"></div>
@@ -52,7 +53,7 @@
 <h2 class="main-subtitle">Let’s Make a <br> Better <span>Planet</span></h2>
 <h2 class="main-basictext">We are an online plant shop offering a wide range of cheap and trendy plants. Use <br> our plants to create an unique Urban Jungle. Order your favorite plants!</h2>
        </div>
-      <a href="./Eror.html"><button class="button">shop now</button></a> 
+     <button class="button"> <a href="./Eror.html">shop now</a> </button>
     </div>
     <div class="main-image">
         <img class="main-flowers" src="..//Img/Flowers.svg" alt="flower">
@@ -61,11 +62,11 @@
 <div class="basic">
     <div class="sort">
         <section class="filter">
-            <div class="burger-menu">
-                <div class="burger-icon" onclick="toggleMenu()">
+            <div class="burger-sort">
+                <div class="burger-icon" onclick="toggleMenus()">
 <h4>Filter</h4>
                 </div>
-                <div class="menu" id="menu">
+                <div class="sorts" id="sorts">
                     <h2>Categories</h2>
                     <div class="plan-categories">
                         <div class="text"><p>House Plants</p><p>(33)</p></div>
@@ -82,7 +83,7 @@
                     <h2 class="renge-title">Price Range</h2>
                     <img class="price-range" src="../Img/Range.svg" alt="range">
                     <p class="price-text">Price:<span> $39 - $1230</span></p>
-                    <a href="./Eror.html"><button class="price-filter-button">Filter</button></a>
+                    <button class="price-filter-button"><a href="./Eror.html">Filter</a></button>
         
                     <div class="size-block">
                         <h2 class="size-title">Size</h2>
@@ -117,6 +118,7 @@
            <div class="home-plans">
             <div class="line">
                 <a href="./2.html" >
+
                 <div class="product">
                     <div class="product-image">
                         <img src="..//Img/Barber Daisy.png" alt="Barberton Daisy">
@@ -229,10 +231,10 @@
 
 </div>
 <div class="pagination">
-    <a href="./Eror.html"><div class="pagination-item ">1</div></a>
-    <a href="./Eror.html"><div class="pagination-item">2</div></a>
-    <a href="./Eror.html"><div class="pagination-item">3</div></a>
-    <a href="./Eror.html"><div class="pagination-item">4</div></a>
+    <div class="pagination-item "> <a href="./Eror.html">1</a></div>
+    <div class="pagination-item"> <a href="./Eror.html">2</a></div>
+    <div class="pagination-item"> <a href="./Eror.html">3</a></div>
+    <div class="pagination-item"> <a href="./Eror.html">4</a></div>
     <span><img style="width: 18px; height: 18px;" src="..//Img/Arrow - Right 2.svg" alt="Arrow - Right"></span>
   </div>
 
@@ -372,39 +374,47 @@
                 </div>
             </div>
             <div class="navigation">
+                <div class="information">
                 <div class="account">
-                    <h2>My Account</h2>
-                    <p>My Account</p>
-                    <p>Our stores</p>
-                    <p>Contact us</p>
-                    <p>Career</p>
-                    <p>Specials</p>
+                    <h2 class="toggle">My Account</h2>
+                    <ul class="account-steps">
+                    <li>My Account</li>
+                    <li>Our stores</li>
+                    <li>Contact us</li>
+                    <li>Career</li>
+                    <li>Specials</li>
+                </ul>
                 </div>
                 <div class="help">
-                    <h2>Help Center</h2>
-                    <p>Help Center</p>
-                    <p>How to Buy</p>
-                    <p>Shipping &amp; Delivery</p>
-                    <p>Product Policy</p>
-                    <p>How to Return</p>
+                    <h2 class="toggle">Help & Guide</h2>
+                    <ul class="help-steps">
+                    <li>Help Center</li>
+                    <li>How to Buy</li>
+                    <li>Shipping &amp; Delivery</li>
+                    <li>Product Policy</li>
+                    <li>How to Return</li>
+                    </ul>
                 </div>
                 <div class="categories">
-                    <h2>Categories</h2>
-                    <p>House Plants</p>
-                    <p>Potter Plants</p>
-                    <p>Seeds</p>
-                    <p>Small Plants</p>
-                    <p>Accessories</p>
+                    <h2 class="toggle">Categories</h2>
+                    <ul class="categories-steps">
+                    <li>House Plants</li>
+                    <li>Potter Plants</li>
+                    <li>Seeds</li>
+                    <li>Small Plants</li>
+                    <li>Accessories</li>
+                    </ul>
                 </div>
+            </div>
                 <div class="acepted-payment-methods">
                     <div class="media">
                         <h2>Social Media</h2>
                         <div class="medias">
-                        <a  href=" https://ru-ru.facebook.com/" target="_blank"><img src="..//Img/facebook.svg" alt="facebook"></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img src="..//Img/instagram.svg" alt="instagram"></a>
-                        <a href="https://x.com/" target="_blank"><img src="..//Img/Twitter.svg" alt="Twitter"></a>
-                        <a href="https://www.linkedin.com/" target="_blank"><img src="..//Img/Linkedin.svg" alt="Linkedin"></a>
-                        <a href="https://auth.unionepro.ru/"><img src="..//Img/Union.svg" alt="Union"></a>
+                        <img src="..//Img/facebook.svg" alt="">
+                        <img src="..//Img/instagram.svg" alt="">
+                        <img src="..//Img/Twitter.svg" alt="">
+                        <img src="..//Img/Linkedin.svg" alt="">
+                        <img src="..//Img/Union.svg" alt="">
                     </div>
                     </div>
                     <div class="pay">

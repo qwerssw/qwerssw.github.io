@@ -127,6 +127,9 @@ main .products .product-imege .main-image {
   justify-content: center;
   align-items: center;
 }
+main .products .product-imege .main-image .circle {
+  display: none;
+}
 main .products .product-imege .main-image img {
   width: 28vw;
   height: 28vw;
@@ -660,7 +663,7 @@ footer .navigation .information .account-steps {
   display: flex;
   flex-direction: column;
   gap: 0.54rem;
-  overflow: hidden; /* Скрываем переполнение */
+  overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 footer .navigation .information .account-steps li {
@@ -752,17 +755,22 @@ footer .acepted-payment-methods .pay h2 {
 @media (max-width: 479px) {
   .header-container {
     gap: 0 !important;
-    /* Анимация для бургер-меню */
   }
   .header-container .menu {
     position: relative;
-    margin-left: 46vw;
+    margin-left: 31vw;
+  }
+  .header-container .logo-foto {
+    width: 4.36vw;
+  }
+  .header-container .logo-text {
+    width: 12.6vw;
   }
   .header-container .burger {
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    margin: 10px; /* Отступ для удобства */
+    margin: 10px;
   }
   .header-container .line {
     width: 15px;
@@ -798,6 +806,7 @@ footer .acepted-payment-methods .pay h2 {
   }
   .header-container .menu-list.show {
     display: flex;
+    width: 6rem;
   }
   .header-container a:hover {
     font-weight: 700;
@@ -806,7 +815,7 @@ footer .acepted-payment-methods .pay h2 {
     transform: rotate(45deg) translate(5px, 5px);
   }
   .header-container .burger.active .line:nth-child(2) {
-    opacity: 0; /* Скрываем среднюю линию */
+    opacity: 0;
   }
   .header-container .burger.active .line:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
@@ -817,6 +826,12 @@ footer .acepted-payment-methods .pay h2 {
   .header-line {
     margin: 1.12vw 0 0 0;
     width: 100%;
+  }
+  .header a .buttons {
+    font-size: 0.8rem;
+  }
+  .header a .buttons img {
+    width: 3.38vw;
   }
   main .products {
     flex-direction: column;
@@ -830,7 +845,20 @@ footer .acepted-payment-methods .pay h2 {
     width: 100%;
     height: 70vw !important;
     border-radius: 1px;
-    justify-items: center;
+    justify-content: space-around;
+  }
+  main .products .product-imege .main-image .circle {
+    display: block;
+    margin-top: -22vw;
+    width: 1.2rem;
+    border: 1px solid #b8b8b8;
+    border-radius: 11px;
+    text-align: center;
+    background-color: #b8b8b8;
+  }
+  main .products .product-imege .main-image .circle p {
+    color: #ffffff;
+    margin-top: -1.1px;
   }
   main .products .product-imege .main-image img {
     width: 46vw;
@@ -964,6 +992,12 @@ footer .acepted-payment-methods .pay h2 {
     margin-left: 0;
   }
 }
+@media (max-width: 655px) {
+  footer .greeneshop {
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+}
 @media (max-width: 900px) {
   .header-line {
     width: 91.1vw;
@@ -1051,6 +1085,7 @@ footer .acepted-payment-methods .pay h2 {
   }
   main .products .discription-product .cart-controls .quantity .quantitys {
     font-size: 1rem;
+    margin-top: -1.5vw;
   }
   main .products .discription-product .cart-controls .buttons .buy-now, main .products .discription-product .cart-controls .buttons .add-to-cart {
     font-size: 0.6rem;
