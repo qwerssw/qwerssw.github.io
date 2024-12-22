@@ -5,6 +5,10 @@
   font-family: "Cera Pro";
 }
 
+@font-face {
+  font-family: Cera Pro;
+  src: url(../../шрифты/font/CeraPro-Regular.woff);
+}
 .header-container {
   margin: 1.8vw 8.26vw 0 8.36vw;
   display: flex;
